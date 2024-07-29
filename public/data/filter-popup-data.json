@@ -1,0 +1,52 @@
+{
+    "title": "Filter Popup",
+    "componentName": "FilterPopup",
+    "variantsTitle": "Variants",
+    "variants": [
+        {
+          "title": " Single Column",
+          "imageSrc": "/img/comsvg/fp01.svg"
+        },
+        {
+          "title": " Dual Column",
+          "imageSrc": "/img/comsvg/fp02.svg"
+        },
+        {
+          "title": "Default Filter Active",
+          "imageSrc": "/img/comsvg/fp03.svg"
+        },
+        {
+          "title": "Without button (real time filtering)",
+          "imageSrc": "/img/comsvg/fp04.svg"
+        }
+       
+      ],
+    "stylesTitle": "Styles",
+    "cssCodePath": "/styles/testcss.css",
+    "themeSupportTitle": "Theme Support",
+    "themeSupportText": "No",
+    "themeSupportImageSrc": "/img/oxd-error.svg",
+    "themeVariants": [
+   
+    ],
+ 
+    "behaviorsTitle": "Behaviours and Rules",
+    "behaviorsList": [
+        "The maximum number of fields that can be shown in the filter popup is 8.",
+        "If only switches or check-boxes are used, it can support up to 16 fields.",
+        "When a filter is applied, the filter button will turn orange (the primary color) to indicate that a filter is active.",
+        "Questions cannot be supported in the filter popup. Use a filter modal instead.",
+        "If only one filter is used, display it directly in the UI without a popup. Use a popup if there are two or more filters.",
+        "Users can set a filter as default by clicking the bookmark icon, which will save the selected filter and indicate it in orange (the primary color)."
+
+    ],
+    "spacingTitle": "Spacing & Alignments",
+    "spacingVariants": [
+      {
+        "title": "Padding and Gaps",
+        "imageSrc": "/img/compng/fpgap1.png"
+      }
+     
+    ]
+  }
+  

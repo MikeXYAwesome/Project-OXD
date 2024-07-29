@@ -1,0 +1,47 @@
+{
+    "title": "Switch Piller",
+    "componentName": "SwitchPiller",
+    "variantsTitle": "Variants",
+    "variants": [
+        {
+          "title": "Default",
+          "imageSrc": "/img/comsvg/tg01.svg"
+        },
+        {
+          "title": "With Icon",
+          "imageSrc": "/img/comsvg/tg02.svg"
+        }
+   
+       
+      ],
+    "stylesTitle": "Styles",
+    "cssCodePath": "/styles/testcss.css",
+    "buttonSizesTitle": "Button Sizes",
+   
+    "themeSupportTitle": "Theme Support",
+    "themeSupportText": "No",
+    "themeSupportImageSrc": "/img/oxd-error.svg",
+    "themeVariants": [
+   
+    ],
+ 
+    "behaviorsTitle": "Behaviours and Rules",
+    "behaviorsList": [
+      "An alternative version for segments that does not require dependencies; it works like switches in a stacked version.",
+      "A maximum of 6 items can be used.",
+      "Can be used with icons, without icons, or with only icons that need to have tooltips.",
+      "Do not use long labels; they can only go to a second line. Longer labels will be truncated with dots.",
+      "Only supports primary colors or system colors.",
+      "Can select multiple items, similar to switches."
+   
+    ],
+    "spacingTitle": "Spacing & Alignments",
+    "spacingVariants": [
+      {
+        "title": "",
+        "imageSrc": "/img/compng/tpgap1.png"
+      }
+     
+    ]
+  }
+  

@@ -1,0 +1,71 @@
+{
+    "title": "Slider",
+    "componentName": "Slider",
+    "variantsTitle": "Variants",
+    "variants": [
+        {
+          "title": "Fill slider",
+          "imageSrc": "/img/comsvg/sl01.svg"
+        },
+        {
+          "title": "Fill Slider with label",
+          "imageSrc": "/img/comsvg/sl02.svg"
+        },
+        {
+          "title": "Pill Slider",
+          "imageSrc": "/img/comsvg/sl03.svg"
+        },
+        {
+          "title": "Snap Slider",
+          "imageSrc": "/img/comsvg/sl04.svg"
+        },
+        {
+          "title": "Precision Slider",
+          "imageSrc": "/img/comsvg/sl05.svg"
+        },
+        {
+          "title": "Default Slider",
+          "imageSrc": "/img/comsvg/sl06.svg"
+        },
+        {
+          "title": "Default Slider with labels",
+          "imageSrc": "/img/comsvg/sl07.svg"
+        },
+        {
+          "title": "Range Slider",
+          "imageSrc": "/img/comsvg/sl08.svg"
+        },
+        {
+          "title": "Histogram slider",
+          "imageSrc": "/img/comsvg/sl09.svg"
+        }
+   
+       
+      ],
+    "stylesTitle": "Styles",
+    "cssCodePath": "/styles/testcss.css",
+    "buttonSizesTitle": "Button Sizes",
+   
+    "themeSupportTitle": "Theme Support",
+    "themeSupportText": "Yes",
+    "themeSupportImageSrc": "/img/oxd-correct.svg",
+    "themeVariants": [
+   
+    ],
+ 
+    "behaviorsTitle": "Behaviours and Rules",
+    "behaviorsList": [
+      "Always use the default version inside forms as the default.",
+      "For prominent indication, use the 3D version, but only one can be used on a screen. Other versions can be used multiple times on the same screen.",
+      "default sliders have a maximum width of 500px and a minimum width of 120px.",
+      "The snaps slider version can have 10 main points, with the handler snapping to one of the points when sliding.",
+      "Any slider should be specified max range.",
+      "The Pill slider can be selected halfway."
+    ],
+    "spacingTitle": "",
+    "spacingVariants": [
+    
+     
+    ]
+  }
+  

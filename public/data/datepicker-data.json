@@ -1,0 +1,100 @@
+{
+    "title": "Datepicker",
+    "componentName": "Datepicker",
+    "variantsTitle": "Variants",
+    "variants": [
+        {
+          "title": "Default",
+          "imageSrc": "/img/comsvg/dp01.svg"
+        },
+        {
+          "title": "Focus",
+          "imageSrc": "/img/comsvg/dp02.svg"
+        },
+        {
+          "title": "Read-Only",
+          "imageSrc": "/img/comsvg/dp03.svg"
+        },
+        {
+          "title": "Error",
+          "imageSrc": "/img/comsvg/dp06.svg"
+        },
+        {
+          "title": "Correct / Auto-Saved",
+          "imageSrc": "/img/comsvg/dp07.svg"
+        },
+        {
+            "title": "Generated",
+            "imageSrc": "/img/comsvg/dp08.svg"
+        },
+        {
+            "title": "Draft / Warning",
+            "imageSrc": "/img/comsvg/dp09.svg"
+        },
+        {
+            "title": "Drawer Open",
+            "imageSrc": "/img/comsvg/dp10.svg"
+        },
+        {
+            "title": "Date Rage",
+            "imageSrc": "/img/comsvg/dp11.svg"
+        },
+        {
+            "title": "Date Rage (Btween Months)",
+            "imageSrc": "/img/comsvg/dp12.svg"
+        },
+        {
+            "title": "Date with timepicker",
+            "imageSrc": "/img/comsvg/dp13.svg"
+        },
+        {
+            "title": "With holidays and Status",
+            "imageSrc": "/img/comsvg/dp17.svg"
+        }
+        
+      ],
+    "stylesTitle": "Styles",
+    "cssCodePath": "/styles/testcss.css",
+    "buttonSizesTitle": "Button Sizes",
+   
+    "themeSupportTitle": "Theme Support",
+    "themeSupportText": "Yes",
+    "themeSupportImageSrc": "/img/oxd-correct.svg",
+    "themeVariants": [
+        {
+            "title": "exsample 1",
+            "imageSrc": "/img/comsvg/dp14.svg"
+        },
+        {
+            "title": "exsample 2",
+            "imageSrc": "/img/comsvg/dp15.svg"
+        },
+        {
+            "title": "exsample 3",
+            "imageSrc": "/img/comsvg/dp16.svg"
+        }
+   
+    ],
+ 
+    "behaviorsTitle": "Behaviours and Rules",
+    "behaviorsList": [
+        "The date can be typed in the field, and it will be auto-formatted to the configured format.",
+    "The date can be copied and pasted as a normal field.",
+    "The clear button will clear the field.",
+    "Provide a default value, such as the current date and time.",
+    "Allow configuration for different locales and date/time formats.",
+    "Include validation to ensure the entered date/time is within an acceptable range and is in the correct format.",
+    "Ensure the datetime picker is accessible, providing keyboard navigation and screen reader support.",
+    "Allow setting minimum and maximum selectable dates to prevent invalid date selections.",
+    "Support different time zones if the application is used across multiple regions."
+    ],
+    "spacingTitle": "Spacing & Alignments",
+    "spacingVariants": [
+      {
+        "title": "",
+        "imageSrc": "/img/compng/dpgap1.png"
+      }
+     
+    ]
+  }
+  

@@ -1,0 +1,62 @@
+{
+    "title": "Paginations",
+    "componentName": "Pagination",
+    "variantsTitle": "Variants",
+    "variants": [
+        {
+          "title": "Default",
+          "imageSrc": "/img/comsvg/pa01.svg"
+        },
+        {
+          "title": "With lables",
+          "imageSrc": "/img/comsvg/pa02.svg"
+        },
+        {
+          "title": "With Page limit Selector",
+          "imageSrc": "/img/comsvg/pa03.svg"
+        },
+        {
+            "title": "With Last Page link",
+            "imageSrc": "/img/comsvg/pa04.svg"
+        },
+        {
+            "title": "Only Labels Combo",
+            "imageSrc": "/img/comsvg/pa05.svg"
+        },
+        {
+            "title": "Separate Buttons",
+            "imageSrc": "/img/comsvg/pa06.svg"
+        }
+      ],
+    "stylesTitle": "Styles",
+    "cssCodePath": "/styles/testcss.css",
+
+   
+    "themeSupportTitle": "Theme Support",
+    "themeSupportText": "No",
+    "themeSupportImageSrc": "/img/oxd-error.svg",
+    "themeVariants": [
+   
+    ],
+ 
+    "behaviorsTitle": "Behaviours and Rules",
+    "behaviorsList": [
+        "Pagination can be used in tables, list views, and wizard-type (progressive) forms, as well as tile view or card views.",
+        "Only one pagination control is available in the relevant container.",
+        "Pagination should not contain any disabled status.",
+        "Pagination will only appear if there are at least 10 items; otherwise, it will be hidden.",
+        "The default pagination items per page is 25, but this can be customized as needed.",
+        "Errors on a page will be indicated by a red dot on the page number.",
+        "The page or table content should not reload upon clicking the page number.",
+        "The default position is the top right corner, or in OXD list view, it will be at the bottom right corner of the card."
+    ],
+    "spacingTitle": "Spacing & Alignments",
+    "spacingVariants": [
+      {
+        "title": "",
+        "imageSrc": "/img/compng/pagap1.png"
+      }
+     
+    ]
+  }
+  

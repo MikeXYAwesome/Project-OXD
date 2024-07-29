@@ -1,0 +1,73 @@
+{
+    "title": "Autocomplete",
+    "componentName": "autocomplete",
+    "variantsTitle": "Variants",
+    "variants": [
+        {
+          "title": "Default",
+          "imageSrc": "/img/comsvg/ac01.svg"
+        },
+        {
+          "title": "Focus",
+          "imageSrc": "/img/comsvg/ac02.svg"
+        },
+        {
+          "title": "Read-Only",
+          "imageSrc": "/img/comsvg/ac03.svg"
+        },
+        {
+          "title": "Error",
+          "imageSrc": "/img/comsvg/ac04.svg"
+        },
+        {
+          "title": "Correct / Auto-Saved",
+          "imageSrc": "/img/comsvg/ac05.svg"
+        },
+        {
+            "title": "Generated",
+            "imageSrc": "/img/comsvg/ac06.svg"
+        },
+        {
+            "title": "Draft / Warning",
+            "imageSrc": "/img/comsvg/ac07.svg"
+        },
+        {
+            "title": "With Profile Pic and ID",
+            "imageSrc": "/img/comsvg/ac08.svg"
+        },
+        {
+            "title": "Drawer Open",
+            "imageSrc": "/img/comsvg/ac09.svg"
+        }
+        
+      ],
+    "stylesTitle": "Styles",
+    "cssCodePath": "/styles/testcss.css",
+    "buttonSizesTitle": "Button Sizes",
+   
+    "themeSupportTitle": "Theme Support",
+    "themeSupportText": "No",
+    "themeSupportImageSrc": "/img/oxd-error.svg",
+    "themeVariants": [
+   
+    ],
+ 
+    "behaviorsTitle": "Behaviours and Rules",
+    "behaviorsList": [
+        "For autocomplete dropdown, a maximum of 5 suggestions will be shown.",
+        "The scrollbar will not appear; suggestions will come up by typing letters.",
+        "On the drawer - Longer text should wrap around a maximum of 3 rows; more than that will be truncated.",
+        "The profile picture will appear only after selecting an employee in the 'Employee autocomplete option.'",
+        "The remove icon will appear only after selecting an item.",
+        "The remove icon will not appear in read-only mode."
+    ],
+    "spacingTitle": "Spacing & Alignments",
+    "spacingVariants": [
+      {
+        "title": "",
+        "imageSrc": "/img/compng/al1.png"
+      }
+     
+    ]
+  }
+  

@@ -1,0 +1,70 @@
+{
+    "title": "CheckBox",
+    "componentName": "CheckBox",
+    "variantsTitle": "Variants",
+    "variants": [
+      {
+        "title": "Checked",
+        "imageSrc": "/img/comsvg/ch01.svg"
+      },
+      {
+        "title": "Un Checked",
+        "imageSrc": "/img/comsvg/ch02.svg"
+      },
+      {
+        "title": "ReadOnly",
+        "imageSrc": "/img/comsvg/ch03.svg"
+      },
+      {
+        "title": "Checkbox With Lable",
+        "imageSrc": "/img/comsvg/ch04.svg"
+      },
+      {
+        "title": "Checkbox Grupe",
+        "imageSrc": "/img/comsvg/ch05.svg"
+      }
+    ],
+    "cssCodePath": "/styles/testcss.css",
+    "stylesTitle": "Styles",
+    "themeSupportTitle": "Theme Support",
+    "themeSupportText": "Yes brand colors and secondary colors will support",
+    "themeSupportImageSrc": "/img/oxd-correct.svg",
+    "themeVariants": [
+      {
+        "title": "Primary Orange",
+        "imageSrc": "/img/comsvg/ch06.svg"
+      },
+      {
+        "title": "Yellow Orange",
+        "imageSrc": "/img/comsvg/ch07.svg"
+      },
+      {
+        "title": "Pear Green",
+        "imageSrc": "/img/comsvg/ch08.svg"
+      },
+      {
+        "title": "Pear Green",
+        "imageSrc": "/img/comsvg/ch08.svg"
+      }
+    ],
+    "behaviorsTitle": "Behaviours and Rules",
+    "behaviorsList": [
+      "Checkboxes Should aligned vertically should not be used in horizontal(inline) layout",
+      "Checkbox labels that include “no” force users to affirm a negative, learn more at form design gudie.",
+      "Do not use with Dupluacting lables. Duplicating it with multiple checkboxes produces more text to read and clutters the interface."
+    ],
+    "spacingTitle": "Spacing & Alignments",
+    "spacingVariants": [
+      {
+        "title": "Gap Btween CheckBox Groupe (16px)",
+        "imageSrc": "/img/compng/chgap1.png"
+      },
+      {
+        "title": "Checkbox Size and Gap with Lable (px)",
+        "imageSrc": "/img/compng/chgap2.png"
+      }
+    ]
+    
+    
+  }
+  

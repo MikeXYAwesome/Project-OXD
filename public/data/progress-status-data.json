@@ -1,0 +1,73 @@
+{
+    "title": "Progress Status",
+    "componentName": "ProgressStatus",
+    "variantsTitle": "Variants",
+    "variants": [
+        {
+          "title": "Default",
+          "imageSrc": "/img/comsvg/ps01.svg"
+        },
+        {
+          "title": "With Icon",
+          "imageSrc": "/img/comsvg/ps02.svg"
+        },
+        {
+          "title": "With Icon and Mini Label ",
+          "imageSrc": "/img/comsvg/ps03.svg"
+        },
+        {
+            "title": "Progress Percentage",
+            "imageSrc": "/img/comsvg/ps04.svg"
+        },
+        {
+            "title": "With Floting Point",
+            "imageSrc": "/img/comsvg/ps05.svg"
+        },
+        {
+            "title": "With 3 digits",
+            "imageSrc": "/img/comsvg/ps06.svg"
+        },
+        {
+            "title": "With Action Button",
+            "imageSrc": "/img/comsvg/ps07.svg"
+        },
+        {
+            "title": "With Sub Ring",
+            "imageSrc": "/img/comsvg/ps08.svg"
+        },
+        {
+            "title": "Multiple Progress Rings ",
+            "imageSrc": "/img/comsvg/ps09.svg"
+        }
+      
+      ],
+    "stylesTitle": "Styles",
+    "cssCodePath": "/styles/testcss.css",
+
+   
+    "themeSupportTitle": "Theme Support",
+    "themeSupportText": "Yes",
+    "themeSupportImageSrc": "/img/oxd-correct.svg",
+    "themeVariants": [
+     
+    ],
+ 
+    "behaviorsTitle": "Behaviours and Rules",
+    "behaviorsList": [
+        "The maximum supported digits are 3.",
+        "The sub-ring version showcases the seconds or more.",
+        "Mini labels should be one word or indication.",
+        "The multiple version will have tooltips indicating the individual rings (legends), numbers, or information.",
+        "All versions will support themes.",
+        "Only supports two actions and cannot have more than 2 buttons."
+    ],
+    "spacingTitle": "Spacing & Alignments",
+    "spacingVariants": [
+      {
+        "title": "",
+        "imageSrc": "/img/compng/psgap1.png"
+      }
+     
+    ]
+  }
+  

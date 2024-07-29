@@ -1,0 +1,78 @@
+{
+    "title": "Toast Message",
+    "componentName": "ToastMessage",
+    "variantsTitle": "Variants",
+    "variants": [
+        {
+          "title": "Default toast message",
+          "imageSrc": "/img/comsvg/to01.svg"
+        },
+        {
+          "title": "info toast message",
+          "imageSrc": "/img/comsvg/to02.svg"
+        },
+        {
+          "title": "Warrning toast message",
+          "imageSrc": "/img/comsvg/to03.svg"
+        },
+        {
+            "title": "Successful toast message",
+            "imageSrc": "/img/comsvg/to04.svg"
+        },
+        {
+            "title": "Error toast message",
+            "imageSrc": "/img/comsvg/to05.svg"
+        },
+        {
+            "title": "Alert toast message",
+            "imageSrc": "/img/comsvg/to06.svg"
+        },
+        {
+            "title": "Toast message with action button",
+            "imageSrc": "/img/comsvg/to07.svg"
+        },
+        {
+            "title": "With a Link",
+            "imageSrc": "/img/comsvg/to08.svg"
+        },
+        {
+            "title": "Stack of toast messages",
+            "imageSrc": "/img/comsvg/to09.svg"
+        }
+      ],
+    "stylesTitle": "Styles",
+    "cssCodePath": "/styles/testcss.css",
+
+   
+    "themeSupportTitle": "Theme Support",
+    "themeSupportText": "No",
+    "themeSupportImageSrc": "/img/oxd-error.svg",
+    "themeVariants": [
+   
+    ],
+ 
+    "behaviorsTitle": "Behaviours and Rules",
+    "behaviorsList": [
+        "Toast messages should appear at the bottom-left corner of the screen by default.",
+        "Messages should be brief, ideally no more than two lines of text.",
+        "Each toast message should auto-dismiss after 5 seconds, unless the user interacts with it.",
+        "Toast messages should support different types: success, error, warning, and info, each with distinct colors and icons.",
+        "Ensure toast messages are accessible, with ARIA roles and labels for screen readers.",
+        "Maximum 5 line can be showen in toast message",
+        "A progress weel will indicate how much time is left until the message disappears.",
+        "Toast messages should stack vertically if multiple are displayed simultaneously.",
+        "Provide a close button on each toast message for manual dismissal.",
+        "Messages should slide in from the side and fade out smoothly to enhance the user experience.",
+        "Toast messages should not overlap with other UI elements or obstruct important content."
+       
+    ],
+    "spacingTitle": "Spacing & Alignments",
+    "spacingVariants": [
+      {
+        "title": "",
+        "imageSrc": "/img/compng/togap1.png"
+      }
+     
+    ]
+  }
+  

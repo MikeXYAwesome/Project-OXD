@@ -1,0 +1,74 @@
+{
+    "title": "Comments PopUp",
+    "componentName": "commentsPopup",
+    "variantsTitle": "Variants",
+    "variants": [
+        {
+          "title": "Default",
+          "imageSrc": "/img/comsvg/cmb01.svg"
+        },
+        {
+          "title": "ReadOnly",
+          "imageSrc": "/img/comsvg/cmb02.svg"
+        },
+        {
+          "title": "With Comments",
+          "imageSrc": "/img/comsvg/cmb03.svg"
+        },
+        {
+          "title": "Comments only",
+          "imageSrc": "/img/comsvg/cmb04.svg"
+        },
+        {
+          "title": "With Scrollbar",
+          "imageSrc": "/img/comsvg/cmb05.svg"
+        },
+        {
+          "title": "onHover",
+          "imageSrc": "/img/comsvg/cmb06.svg"
+        },
+        {
+            "title": "inline Edit Option",
+            "imageSrc": "/img/comsvg/cmb07.svg"
+        },
+        {
+            "title": "With top Title",
+            "imageSrc": "/img/comsvg/cmb08.svg"
+        },
+        {
+            "title": "Scrolling (With Commentbox) ",
+            "imageSrc": "/img/comsvg/cmb09.png"
+        }
+      ],
+    "stylesTitle": "Styles",
+    "cssCodePath": "/styles/testcss.css",
+    "themeSupportTitle": "Theme Support",
+    "themeSupportText": "No",
+    "themeSupportImageSrc": "/img/oxd-error.svg",
+    "themeVariants": [
+   
+    ],
+ 
+    "behaviorsTitle": "Behaviours and Rules",
+    "behaviorsList": [
+        "Popup max height will be 650px; depending on screen resolution, it can be shorter to fit the screen.",
+        "Only 5 lines of long comments will be visible initially. Clicking 'read more' will expand the full comment.",
+        "The title can display the main person's name with a profile picture or the main comment title with a matching icon.",
+        "The comment input section will always be fixed at the bottom.",
+        "This can be used without profile pictures as well.",
+        "Hovering over a comment will show the inline edit option and the delete option.",
+        "Can support star rating and like button components at the top right of each comment row.",
+        "Exiting the comment input will save the comment in real-time; inline edits will follow the same behavior."
+    
+
+    ],
+    "spacingTitle": "Spacing & Alignments",
+    "spacingVariants": [
+      {
+        "title": "Padding and Gaps",
+        "imageSrc": "/img/compng/cmb1.png"
+      }
+     
+    ]
+  }
+  

@@ -1,0 +1,88 @@
+.cardGrid
+{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    flex-wrap: wrap;
+    align-content: space-around;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    margin-bottom: 100px;
+    margin-right: 50px;
+    background-color: #f9fafa;
+    overflow: hidden;
+    border: 3px solid rgb(255, 255, 255);
+    z-index: 2;
+    position: relative;
+   border-radius: 35px;
+}
+
+.cardDefultimg
+{
+    min-width: 300px;
+    max-width: 100%;
+    padding: 15px;
+    box-sizing: border-box;
+}
+
+.cardGrid a
+{
+    background-color: transparent;
+}
+.oxdCardHead
+{
+    font-size: 16px;
+    font-weight: 800;
+    padding-top: 3px;
+    color: #38455d;
+    min-height: 45px;
+    display: flex;
+    align-content: flex-start;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    font-family: 'Nunito', sans-serif;
+}
+.oxdCard
+{
+
+    height: auto;
+    padding: 40px;
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+    align-content: space-between;
+    border: 1px solid #ffffff;
+
+}
+.oxdCard:last-child 
+{
+  display:none;
+}
+.oxdCardImg
+{
+    border-radius: 15px;
+    width: 100%;
+    height: 350px;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+.oxdCardDiscrip 
+{
+    font-size: 12px;
+    color: #949baa;
+    font-family: 'Nunito', sans-serif;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;  
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: none;
+}

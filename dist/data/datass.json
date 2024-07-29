@@ -1,0 +1,55 @@
+{
+    "title": "OXD Alerts",
+    "componentName": "alerts",
+    "variantsTitle": "Variants",
+    "variants": [
+      {
+        "title": "Defult",
+        "imageSrc": "/img/comsvg/ch01.svg"
+      },
+      {
+        "title": "Info Alert",
+        "imageSrc": "/img/comsvg/ch02.svg"
+      },
+      {
+        "title": "Warning Alert",
+        "imageSrc": "/img/comsvg/ch03.svg"
+      },
+      {
+        "title": "Error Alert",
+        "imageSrc": "/img/comsvg/ch04.svg"
+      },
+      {
+        "title": "With a Action Button",
+        "imageSrc": "/img/comsvg/ch05.svg"
+      }
+    ],
+    "cssCodePath": "/styles/testcss.css",
+    "stylesTitle": "Styles",
+    "themeSupportTitle": "Theme Support",
+    "themeSupportText": "No",
+    "themeSupportImageSrc": "/img/oxd-error.svg",
+
+    "behaviorsTitle": "Behaviours and Rules",
+    "behaviorsList": [
+        "Primary Color Button should only use as main buttons or main links, example like in dashboard or specific task or navigation.",
+        "Button does not contain any readonly status only disable.",
+        "Always use the Success Button in end of the form.",
+        "Maintain 10px gap in icon and text in the Icon Buttons.",
+        "Recommended maximum buttons in button group can contain only 5."
+      ],
+    "spacingTitle": "Spacing & Alignments",
+    "spacingVariants": [
+      {
+        "title": "Gap Btween CheckBox Groupe (16px)",
+        "imageSrc": "/img/compng/chgap1.png"
+      },
+      {
+        "title": "Checkbox Size and Gap with Lable (px)",
+        "imageSrc": "/img/compng/chgap2.png"
+      }
+    ]
+    
+    
+  }
+  

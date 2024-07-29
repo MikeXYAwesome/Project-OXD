@@ -1,0 +1,58 @@
+.cardGrid
+{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    flex-wrap: wrap;
+    align-content: space-around;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    margin-bottom: 100px;
+    margin-right: 50px;
+    background-color: #f9fafa;
+    overflow: hidden;
+    border: 3px solid rgb(255, 255, 255);
+    z-index: 2;
+    position: relative;
+   border-radius: 35px;
+}
+
+.cardDefultimg
+{
+    width: 100%;
+    padding: 30px;
+    box-sizing: border-box;
+}
+
+.cardGrid a
+{
+    background-color: transparent;
+}
+.cardGrid
+{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    flex-wrap: wrap;
+    align-content: space-around;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    margin-bottom: 100px;
+    margin-right: 50px;
+    background-color: #f9fafa;
+    overflow: hidden;
+    border: 3px solid rgb(255, 255, 255);
+    z-index: 2;
+    position: relative;
+   border-radius: 35px;
+}
+
+.cardDefultimg
+{
+    width: 100%;
+    padding: 30px;
+    box-sizing: border-box;
+}
+
+.cardGrid a
+{
+    background-color: transparent;
+}

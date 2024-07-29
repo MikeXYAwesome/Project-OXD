@@ -1,0 +1,46 @@
+{
+    "title": "Scrollbar",
+    "componentName": "Scrollbar",
+    "variantsTitle": "Variants",
+    "variants": [
+        {
+          "title": "Default",
+          "imageSrc": "/img/comsvg/sb01.svg"
+        },
+        {
+          "title": "3D Version",
+          "imageSrc": "/img/comsvg/sb02.svg"
+        },
+        {
+          "title": "Handle with line",
+          "imageSrc": "/img/comsvg/sb03.svg"
+        }
+      
+       
+      ],
+    "stylesTitle": "Styles",
+    "cssCodePath": "/styles/testcss.css",
+    "buttonSizesTitle": "Button Sizes",
+   
+    "themeSupportTitle": "Theme Support",
+    "themeSupportText": "No",
+    "themeSupportImageSrc": "/img/oxd-error.svg",
+    "themeVariants": [
+   
+    ],
+ 
+    "behaviorsTitle": "Behaviours and Rules",
+    "behaviorsList": [
+        "Always use the default scroll bar for OXD Form and List.",
+        "The default scroll bar should always disappear when not in use.",
+        "Use the 3D version for decorative UI elements like dashboards or tiles with precision points.",
+        "Use the handle version for progress loading containers.",
+        "All other W3C scrollable behaviors are applied."
+    ],
+    "spacingTitle": "",
+    "spacingVariants": [
+   
+     
+    ]
+  }
+  

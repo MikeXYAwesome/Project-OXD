@@ -1,0 +1,51 @@
+{
+    "title": "Cards",
+    "componentName": "Cards",
+    "variantsTitle": "Variants",
+    "variants": [
+        {
+          "title": "With-out title",
+          "imageSrc": "/img/comsvg/ca03.svg"
+        },
+        {
+          "title": "With title",
+          "imageSrc": "/img/comsvg/ca01.svg"
+        },
+        {
+          "title": "With tab menu",
+          "imageSrc": "/img/comsvg/ca02.svg"
+        }
+   
+      
+      ],
+    "stylesTitle": "Styles",
+    "cssCodePath": "/styles/testcss.css",
+ 
+    "themeSupportTitle": "Theme Support",
+    "themeSupportText": "No",
+    "themeSupportImageSrc": "/img/oxd-error.svg",
+    "themeVariants": [
+   
+    ],
+ 
+    "behaviorsTitle": "Behaviours and Rules",
+    "behaviorsList": [
+        "Cards should always be used as the bottom layer.",
+        "Shadows can be used to showcase the depth and gap between two cards stacked on top of each other.",
+        "Only use a top tab menu or side menu for navigation.",
+        "Minimum height depends on screen size; if multiple cards are in one screen, height will be determined by the content."
+    ],
+    "spacingTitle": "Spacing & Alignments",
+    "spacingVariants": [
+      {
+        "title": "",
+        "imageSrc": "/img/compng/card1.jpg"
+      },
+      {
+        "title": "",
+        "imageSrc": "/img/compng/card2.jpg"
+      }
+     
+    ]
+  }
+  

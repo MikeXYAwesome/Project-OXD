@@ -1,0 +1,76 @@
+{
+    "title": "Attachment Popup",
+    "componentName": "attachmentPopup",
+    "variantsTitle": "Variants",
+    "variants": [
+        {
+          "title": "Default",
+          "imageSrc": "/img/comsvg/at01.svg"
+        },
+        {
+          "title": "With buttons and size lable",
+          "imageSrc": "/img/comsvg/at02.svg"
+        },
+        {
+          "title": "on hover",
+          "imageSrc": "/img/comsvg/at03.svg"
+        },
+        {
+          "title": "Inline-Edit name",
+          "imageSrc": "/img/comsvg/at04.svg"
+        },
+        {
+          "title": "Error Uploading",
+          "imageSrc": "/img/comsvg/at05.svg"
+        },
+        {
+          "title": "Uploading Complete",
+          "imageSrc": "/img/comsvg/at06.svg"
+        },
+        {
+            "title": "Uploading",
+            "imageSrc": "/img/comsvg/at07.svg"
+        },
+        {
+            "title": "With file type icons",
+            "imageSrc": "/img/comsvg/at08.svg"
+        },
+        {
+            "title": "With Upload Section",
+            "imageSrc": "/img/comsvg/at08.svg"
+        }
+      ],
+    "stylesTitle": "Styles",
+    "cssCodePath": "/styles/testcss.css",
+    "themeSupportTitle": "Theme Support",
+    "themeSupportText": "No",
+    "themeSupportImageSrc": "/img/oxd-error.svg",
+    "themeVariants": [
+   
+    ],
+ 
+    "behaviorsTitle": "Behaviours and Rules",
+    "behaviorsList": [
+    "In one view, if there are more than 12 items, they should be scrollable.",
+    "Each attachment file name is editable by double-clicking on the file.",
+    "If uploading new files is not allowed, the upload button will be hidden.",
+    "The complete upload highlight will disappear after 5 seconds or upon exiting the popup.",
+    "Do not add any other elements within the attachment rows.",
+    "Upon hovering over an attachment file row, available options including the delete option will be shown.",
+    "The upload can be canceled at any time during the file upload process.",
+    "Clicking on the upload button at the top right will open the default file browser of the corresponding OS.",
+    "Do not use this for showcasing large attachments, like those over 25 MB.",
+    "When the upload is completed, a success message will be triggered.",
+    "Do not use this for more than 25 items. In such cases, use the OXD list view instead."
+
+    ],
+    "spacingTitle": "Spacing & Alignments",
+    "spacingVariants": [
+      {
+        "title": "Padding and Gaps",
+        "imageSrc": "/img/compng/atgap01.png"
+      }
+     
+    ]
+  }
+  

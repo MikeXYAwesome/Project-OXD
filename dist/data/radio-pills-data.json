@@ -1,0 +1,50 @@
+{
+    "title": "Radio Pills",
+    "componentName": "RadioPills",
+    "variantsTitle": "Variants",
+    "variants": [
+        {
+          "title": "Icons",
+          "imageSrc": "/img/comsvg/rp01.svg"
+        },
+        {
+          "title": "Labels",
+          "imageSrc": "/img/comsvg/rp02.svg"
+        },
+        {
+          "title": "Disable",
+          "imageSrc": "/img/comsvg/rp03.svg"
+        }
+      
+       
+      ],
+    "stylesTitle": "Styles",
+    "cssCodePath": "/styles/testcss.css",
+    "buttonSizesTitle": "Button Sizes",
+   
+    "themeSupportTitle": "Theme Support",
+    "themeSupportText": "Yes",
+    "themeSupportImageSrc": "/img/oxd-correct.svg",
+    "themeVariants": [
+   
+    ],
+ 
+    "behaviorsTitle": "Behaviours and Rules",
+    "behaviorsList": [
+        "Icon pills will have tooltips to showcase the label.",
+        "A maximum of 10 items can be used.",
+        "All pills should be in one row unless using a small container.",
+        "Do not include validation or read-only status.",
+        "Cannot be used as an optional field.",
+        "One pill must always be selected."
+    ],
+    "spacingTitle": "Spacing & Alignments",
+    "spacingVariants": [
+      {
+        "title": "",
+        "imageSrc": "/img/compng/rpgap1.png"
+      }
+     
+    ]
+  }
+  

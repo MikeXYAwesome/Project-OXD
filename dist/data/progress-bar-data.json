@@ -1,0 +1,59 @@
+{
+    "title": "Progress Bar",
+    "componentName": "ProgressBar",
+    "variantsTitle": "Variants",
+    "variants": [
+        {
+          "title": "Default",
+          "imageSrc": "/img/comsvg/pb01.svg"
+        },
+        {
+          "title": "With Percentage Number",
+          "imageSrc": "/img/comsvg/pb02.svg"
+        },
+        {
+          "title": "With 3d Ball",
+          "imageSrc": "/img/comsvg/pb03.svg"
+        },
+        {
+            "title": "Signature gradient progress",
+            "imageSrc": "/img/comsvg/pb04.svg"
+        }
+      
+      ],
+    "stylesTitle": "Styles",
+    "cssCodePath": "/styles/testcss.css",
+
+   
+    "themeSupportTitle": "Theme Support",
+    "themeSupportText": "Yes",
+    "themeSupportImageSrc": "/img/oxd-correct.svg",
+    "themeVariants": [
+        {
+            "title": "exsample 01",
+            "imageSrc": "/img/comsvg/pb05.svg"
+        },
+        {
+            "title": "exsample 02",
+            "imageSrc": "/img/comsvg/pb06.svg"
+        }
+    ],
+ 
+    "behaviorsTitle": "Behaviours and Rules",
+    "behaviorsList": [
+        "A progress bar is a graphical representation that shows the progress of a task or process.",
+        "Progress bars can be styled in different ways, including changing the color and animation.",
+        "The minimum width should be 150px.",
+        "Do not use multiple progress bars on the same screen unless it is a list view.",
+        "Gradient variations can be used as a page loader."
+    ],
+    "spacingTitle": "Spacing & Alignments",
+    "spacingVariants": [
+      {
+        "title": "",
+        "imageSrc": "/img/compng/pbgap1.png"
+      }
+     
+    ]
+  }
+  

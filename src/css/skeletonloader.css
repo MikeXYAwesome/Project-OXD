@@ -1,0 +1,68 @@
+/* src/components/SkeletonLoader.css */
+.skeleton-loader {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    background-color: #f9fafa;
+    padding: 50px;
+    border-radius: 25px;
+  }
+
+.sk-veriant-wrap
+{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    justify-items: stretch;
+    justify-content: space-between;
+    align-content: space-between;
+    column-gap: 15px;
+    row-gap: 15px;
+    padding-bottom: 50px;
+    padding-top: 25px;
+}
+  .skeleton-title,
+  .skeleton-variant,
+  .skeleton-title-sb, 
+  .skeleton-text {
+    background: linear-gradient(90deg, #f1f1f1 25%, #e0e0e0 50%, #f1f1f1 75%);
+    background-size: 200% 100%;
+    border-radius: 4px;
+    height: 20px;
+    width: 100%;
+    animation: shimmer 1.5s infinite linear;
+  }
+  .sk-line
+  {
+    border-bottom: 1px solid #cfd3de;
+    padding-top: 15px;
+  }
+ 
+  .skeleton-title {
+    width: 30%;
+    height: 40px;
+  }
+  .skeleton-title-sb {
+    width: 7%;
+    height: 30px;
+  }
+  .skeleton-variant {
+    height: 300px;
+    border-radius: 25px;
+  }
+
+  
+  .skeleton-text {
+    width: 80%;
+    height: 15px;
+  }
+  
+  @keyframes shimmer {
+    0% {
+      background-position: -200% 0;
+    }
+    100% {
+      background-position: 200% 0;
+    }
+  }
+  

@@ -1,0 +1,32 @@
+
+.ImageWarp {
+    background-color: rgb(245, 245, 245); 
+    min-height: 300px;
+    max-height: 450px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 25px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+  }
+  .ImageWarp  img
+  {
+    width: 100%;
+
+  }
+  .full-width {
+    width: 100%;
+  }
+  
+  .half-width {
+    width: 50%;
+  }
+  
+  .third-width {
+    width: 30%;
+  }
+  

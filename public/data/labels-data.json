@@ -1,0 +1,84 @@
+{
+    "title": "Labels",
+    "componentName": "Label",
+    "variantsTitle": "Variants",
+    "variants": [
+        {
+          "title": "Input Label",
+          "imageSrc": "/img/comsvg/lb01.png"
+        },
+        {
+          "title": "Validation Label",
+          "imageSrc": "/img/comsvg/lb02.png"
+        },
+        {
+          "title": "Placeholder Label",
+          "imageSrc": "/img/comsvg/lb03.png"
+        },
+        {
+            "title": "System (AI) Generated Text",
+            "imageSrc": "/img/comsvg/lb04.png"
+        },
+        {
+            "title": "Disable Label",
+            "imageSrc": "/img/comsvg/lb05.png"
+        },
+        {
+            "title": "Card Title Label",
+            "imageSrc": "/img/comsvg/lb06.png"
+        },
+        {
+            "title": "links",
+            "imageSrc": "/img/comsvg/lb07.png"
+        },
+        {
+            "title": "Defult Text",
+            "imageSrc": "/img/comsvg/lb08.png"
+        },
+        {
+          "title": "Sub - Title",
+          "imageSrc": "/img/comsvg/lb09.png"
+        },
+        {
+          "title": "help Labels",
+          "imageSrc": "/img/comsvg/lb11.png"
+        },
+        {
+          "title": "Chart / List Legends",
+          "imageSrc": "/img/comsvg/lb10.png"
+        }
+        
+   
+      
+      ],
+    "stylesTitle": "Styles",
+    "cssCodePath": "/styles/testcss.css",
+    "themeSupportTitle": "Theme Support",
+    "themeSupportText": "No (Except link lables)",
+    "themeSupportImageSrc": "/img/oxd-error.svg",
+    "themeVariants": [
+   
+    ],
+ 
+    "behaviorsTitle": "Behaviours and Rules",
+    "behaviorsList": [
+      "All OXD labels use the system font Nunito.",
+      "The default font size is 12px.",
+      "Validation labels cannot exceed 3 rows.",
+      "Generated text highlighting will be removed when you start editing the text.",
+      "Avoid using long labels whenever possible.",
+      "Use user-friendly terminology for help text, input labels, and placeholders.",
+      "All labels must be in Title Case, except for default text.",
+      "Do not use any technical terminology or symbols for labels."
+    ],
+    "spacingTitle": "Spacing & Alignments",
+    "spacingVariants": [
+      {
+        "title": "",
+        "imageSrc": "/img/compng/lbgap1.png"
+      }
+     
+     
+    ]
+  }
+  

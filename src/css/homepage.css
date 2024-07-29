@@ -1,0 +1,331 @@
+
+@font-face {
+    font-family: 'helvetica', sans-serif;
+    src: url(../assets/fonts/HelveticaWorld-Regular.ttf);
+}
+@font-face {
+    font-family: 'helveticaRounded', sans-serif;
+    src: url(../assets/fonts/HelveticaRoundedLTStd-Bd.otf);
+}
+@font-face {
+    font-family: 'ahronbd', sans-serif;
+    src: url(../assets/fonts/ahronbd.ttf);
+}
+body
+{
+    margin: 00px;
+    padding: 00px;
+    box-sizing: border-box;
+}
+*
+{
+    box-sizing: border-box;
+}
+.homePageWrap
+{
+    min-height: 1000px;
+    font-family: "Open Sans", sans-serif;
+    background: #fff;
+    display: flex;
+    padding-top: 100px;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+   
+}
+
+.heroLogo
+{
+    width: 650px;
+    margin-top: 30px;
+    display: none;
+}
+.OhrmLogo
+{
+    width: 180px;
+    margin-top: -72px;
+    position: absolute;
+    z-index: 1000;
+    right: 135px;
+   
+}
+.oxdtxt
+{
+    font-size: 25px;
+    margin-top: -65px;
+    position: absolute;
+    margin-left: -1150px;
+    z-index: 1000;
+    color: #000000;
+    font-family: Helvetica, sans-serif;
+    font-weight: 800;
+    letter-spacing: -1px;
+}
+.oxdlogo
+{
+    z-index: 10;
+    margin-top: 100px;
+}
+
+.JamboTitle
+{
+    font-size: 35px;
+    line-height: 1.22;
+   font-family: inherit;
+    font-weight: 1000;
+    margin-top: 100px;
+    margin-left: 5px;
+    letter-spacing: -1px;
+    color: #0c7711;
+
+}
+.flotitmewrap
+{
+    position: absolute;
+    height: 650px;
+    width: 100%;
+    background-color: #fff;
+    background-image: url("../assets/img/landscape.png");
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+    opacity: 0.4;
+    margin-top: 35px;
+ 
+}
+.Swingarrow
+{
+    width: 172px;
+    rotate: 10deg;
+    margin-top: 580px;
+    display: none;
+}
+.pentool
+{
+    width: 60px;
+    margin-top: 50px;
+    display: none;
+}
+.homeBannerWarp
+{
+    height: 160px;
+    min-width: 1300px;
+    display: flex;
+    justify-content: flex-start;
+    background-size: cover;
+    background-position: center;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.TitleExplore
+{
+    height: 200px;
+    display: flex;
+    font-size: 35px;
+    color: #000;
+    font-family: Helvetica, sans-serif;
+    font-weight: 900;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+.MgGlass
+{
+    width: 68px;
+    margin-top: 2px;
+    margin-left: 5px;
+}
+.bentoMainwarp
+{
+   
+    min-height: 2000px;
+    padding-bottom: 240px;
+    max-width: 1450px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    justify-content: center;
+    column-gap: 25px;
+    row-gap: 25px;
+    margin-top: -150px;
+}
+.bentowrpa1
+{
+    height: 700px;
+    width: 100%;
+    margin-bottom: 180px;
+}
+
+.bentosidea
+{
+    width: 60%;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    justify-content: space-between;
+    align-items: flex-start;
+    column-gap: 25px;
+    row-gap: 25px;
+    flex-grow: 1;
+}
+.bentosideb
+{
+    width: 500px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    justify-content: space-between;
+    align-items: flex-start;
+    column-gap: 25px;
+}
+
+.bentosidebc
+{
+    width: 100%;
+    display: flex;
+    column-gap: 25px;
+}
+.bentowrpa2
+{
+    height: 425px;
+    width: 100%;
+}
+
+.bentowrpa3
+{
+    height: 400px;
+    min-width: 200px;
+    flex: 1;
+}
+.bentowrpa4
+{
+    height: 400px;
+    min-width: 600px;
+    flex: 1;
+}
+.bentowrpa5
+{ 
+    height: 100%;
+    width: 100%;
+}
+.bentowrpa6
+{
+    height: 400px;
+    width: 300px;
+    flex: 1;
+}
+.bentowrpa7
+{
+    height: 400px;
+    width: 300px;
+    flex: 1;
+}
+.bentowrpa8
+{
+    height: 450px;
+    width: 400px;
+}
+.player3d
+{
+    width: 100%;
+    height: 70%;
+}
+.bentowrpa9
+{
+    height: 450px;
+    width: 400px;
+    flex-grow: 1;
+}
+.bentowrpa10
+{
+    height: 450px;
+    width: 400px;
+}
+
+.OtherLinkCard{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    column-gap: 20px;
+    padding-bottom: 100px;
+    padding-top: 50px;
+}
+
+.Olinks
+{
+  padding: 30px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-size: 16px;
+  background-color: black;
+  color: white;
+  border-radius: 100px;
+  display: flex;
+  align-content: center;
+  align-items: center;
+  justify-content: center;
+  column-gap: 10px;
+  
+}
+.Olinks img
+{
+    width: 25px;
+}
+
+#Layer_2
+{
+    width: 600px;
+}
+@keyframes draw {
+    from {
+      stroke-dasharray: 0, 100;
+    }
+    to {
+      stroke-dasharray: 100, 0;
+    }
+  }
+  
+  @keyframes fill {
+    from {
+      fill: transparent;
+    }
+    to {
+      fill: #000; /* Change this to your desired fill color */
+    }
+  }
+  
+  .heroLogo path {
+    stroke: #ffffff;
+    stroke-width: 0;
+    fill: transparent; /* Start with transparent fill */
+    stroke-dasharray: 100;
+    animation: draw 0.4s ease-in-out forwards, fill 0.4s ease-in-out forwards;
+  }
+  
+  .heroLogo path#path1 {
+    animation-delay: 0s, 0.5s; /* Delay fill animation to start after draw animation */
+  }
+  
+  .heroLogo path#path2 {
+    animation-delay: 0s, 0.6s; /* Adjust delays accordingly */
+  }
+   
+  .heroLogo path#path3 {
+    animation-delay: 0s, 0.7s; /* Adjust delays accordingly */
+  }
+  
+   
+  .heroLogo path#path4 {
+    animation-delay: 0s, 0.8s; /* Adjust delays accordingly */
+  }
+  
+   
+  .heroLogo path#path5 {
+    animation-delay: 0s, 0.9s; /* Adjust delays accordingly */
+  }
+  
+  /* Add more paths and delays as needed */
+  

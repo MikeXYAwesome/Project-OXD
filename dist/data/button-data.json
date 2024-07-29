@@ -1,0 +1,122 @@
+{
+    "title": "Buttons",
+    "componentName": "OxdButtons",
+    "variantsTitle": "Button Types",
+    "variants": [
+      {
+        "title": "Solid Button (Primary button)",
+        "imageSrc": "/img/comsvg/bt01.svg"
+      },
+      {
+        "title": "Solid Button (Success button)",
+        "imageSrc": "/img/comsvg/bt02.svg"
+      },
+      {
+        "title": "Ghost Button (Secondary button)",
+        "imageSrc": "/img/comsvg/bt03.svg"
+      },
+      {
+        "title": "Default Text Button (Secondary button)",
+        "imageSrc": "/img/comsvg/bt04.svg"
+      },
+      {
+        "title": "Success Text Button (Secondary button)",
+        "imageSrc": "/img/comsvg/bt05.svg"
+      },
+      {
+        "title": "Icon | List Button",
+        "imageSrc": "/img/comsvg/bt06.svg"
+      },
+      {
+        "title": "Plain Icon Buttons",
+        "imageSrc": "/img/comsvg/bt07.svg"
+      },
+      {
+        "title": "Button With Icon",
+        "imageSrc": "/img/comsvg/bt08.svg"
+      },
+      {
+        "title": "Dropdown Button",
+        "imageSrc": "/img/comsvg/bt09.svg"
+      },
+      {
+        "title": "Pill Button",
+        "imageSrc": "/img/comsvg/bt10.svg"
+      },
+      {
+        "title": "Pill Dropdown Button",
+        "imageSrc": "/img/comsvg/bt11.svg"
+      },
+      {
+        "title": "Arrow Icon Buttons",
+        "imageSrc": "/img/comsvg/bt12.svg"
+      },
+      {
+        "title": "Active",
+        "imageSrc": "/img/comsvg/bt17.svg"
+      },
+      {
+        "title": "Focus | Hover",
+        "imageSrc": "/img/comsvg/bt18.svg"
+      },
+      {
+        "title": "Disable",
+        "imageSrc": "/img/comsvg/btdesable.svg"
+      },
+      {
+        "title": "Button Sizes - Large",
+        "imageSrc": "/img/comsvg/btlarge.svg"
+      },
+      {
+        "title": "Button Sizes - Medium (default)",
+        "imageSrc": "/img/comsvg/btmedium.svg"
+      },
+      {
+        "title": "Button Sizes - Small",
+        "imageSrc": "/img/comsvg/btsmall.svg"
+      }
+     
+    ],
+    "stylesTitle": "Styles",
+    "cssCodePath": "/styles/testcss.css",
+    "buttonSizesTitle": "Button Sizes",
+   
+    "themeSupportTitle": "Theme Support",
+    "themeSupportText": "Yes (Secondary and Brand Color Buttons Will Support)",
+    "themeSupportImageSrc": "../../assets/svgs/oxd-correct.svg",
+    "themeVariants": [
+      {
+        "title": "Solid Buttons",
+        "imageSrc": "/img/comsvg/bt14.svg"
+      },
+      {
+        "title": "Fade Buttons",
+        "imageSrc": "/img/comsvg/bt15.svg"
+      },
+      {
+        "title": "Ghost Button",
+        "imageSrc": "/img/comsvg/bt16.svg"
+      }
+    ],
+ 
+    "behaviorsTitle": "Behaviours and Rules",
+    "behaviorsList": [
+      "Primary Color Button should only use as main buttons or main links, example like in dashboard or specific task or navigation.",
+      "Button does not contain any readonly status only disable.",
+      "Always use the Success Button in end of the form.",
+      "Maintain 5px gap in icon and text in the Icon Buttons.",
+      "Recommended maximum buttons in button group can contain only 5."
+    ],
+    "spacingTitle": "Spacing & Alignments",
+    "spacingVariants": [
+      {
+        "title": "Button Group Gap (px)",
+        "imageSrc": "/img/compng/btspace.png"
+      },
+      {
+        "title": "Button Icon Gap(px)",
+        "imageSrc": "/img/compng/bticongap.png"
+      }
+    ]
+  }
+  

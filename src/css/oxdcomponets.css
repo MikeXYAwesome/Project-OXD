@@ -1,0 +1,42 @@
+body
+{
+    margin: 0px;
+    padding: 0px;
+}
+.Orangelogo
+{
+    position: fixed;
+    width: 70px;
+    height: 70px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 50%;
+    right: 45px;
+    top:15px;
+    padding: 12px;
+
+}
+.Orangelogo img
+{
+    width: 100%;
+}
+.leftblock
+{
+    width: 22%;
+    padding-top: 10px;
+}
+.rightblock
+{
+    width: 78%;
+    padding-top: 120px;
+    z-index: 5;
+}
+.comwrap
+{
+    display: flex;
+    background-color: rgb(255, 255, 255);
+    animation: fadeIn 1s;
+}
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }

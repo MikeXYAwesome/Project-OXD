@@ -1,0 +1,106 @@
+.GuidePageWrap
+{
+    padding-left: 100px;
+    padding-right: 100px;
+    font-family: Helvetica, sans-serif;
+}
+
+.Guidetitle
+{
+    font-size: 50px;
+    font-weight: 800;
+    color: black;
+    letter-spacing: -2px;
+    padding-top: 25px;
+}
+.Orangelogo-G
+{
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 50%;
+    right: 85px;
+    top:15px;
+    padding: 12px;
+
+}
+.Orangelogo-G img
+{
+  width: 100%;
+}
+
+.GridWarp
+{
+    padding-top: 50px;
+    padding-bottom: 300px;
+    width: 100%;
+    height: auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(330px, 1fr));
+    row-gap: 50px;
+    gap: 2rem;
+}
+
+
+.SkeletonLoader {
+    display: flex;
+    align-items: flex-end;
+    padding: 25px;
+    border-radius: 8px;
+    height: 600px;
+    background-color: #f5f5f5;
+    align-content: flex-end;
+    border-radius: 50px;
+  }
+  
+  .SkeletonLoaderImage {
+    width: 100px;
+    height: 100px;
+    background-color: #ddd;
+    border-radius: 50%;
+    margin-right: 20px;
+    animation: pulse 1s ease-in-out infinite alternate;
+  }
+  
+  .SkeletonLoaderDetails {
+    flex: 1;
+  }
+  
+  .SkeletonLoaderTitle {
+    width: 60%;
+    height: 40px;
+    background-color: #ddd;
+    margin-bottom: 10px;
+    animation: pulse 1s ease-in-out infinite alternate;
+    border-radius: 15px;
+  }
+  
+  .SkeletonLoaderDescription {
+    width: 100%;
+    height: 60px;
+    background-color: #ddd;
+    margin-bottom: 10px;
+    animation: pulse 1s ease-in-out infinite alternate;
+    border-radius: 15px;
+    margin-bottom: 20px;
+  }
+  
+  .SkeletonLoaderButton {
+    width: 100px;
+    height: 40px;
+    background-color: #ddd;
+    animation: pulse 1s ease-in-out infinite alternate;
+    margin-bottom: 15px;
+    border-radius: 60px;
+  }
+  
+  @keyframes pulse {
+    0% {
+      opacity: 0.2;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  

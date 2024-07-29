@@ -1,0 +1,350 @@
+h2
+{
+    margin: 0px;
+}
+
+
+.mt25
+{
+    margin-top: 25px;
+}
+.mt50
+{
+    margin-top: 50px;
+}
+.mt100
+{
+    margin-top: 100px;
+}
+.top-rdu
+{
+  margin-top:-100px;
+}
+
+.scrollAria
+{
+    padding-top: 120px;
+}
+.pageTitle
+{
+    font-size: 40px;
+    color: black;
+    font-weight: 900;
+    position: fixed;
+    margin-top: -138px;
+    letter-spacing: -1px;
+    font-family: 'helvetica', sans-serif; 
+}
+.pageLogo
+{
+    width: 100px;
+    height: 100px;
+    position: fixed;
+    right: 50px;
+    margin-top: 25px;
+}
+.pageLogo img
+{
+    width: 45px;
+    height: 45px;
+}
+.IconSizeM
+{
+    width: 32px;
+    height: 32px;
+    display: flex;
+}
+.Icon
+{
+    padding: 10px;
+}
+.CorrctTab
+{
+ font-size: 14px;
+ font-weight: 600;
+ display: flex;
+ align-items: center;
+ column-gap: 10px;
+ font-family: "Nunito", sans-serif;
+ color: #64728c
+}
+
+.getCodeButton
+{
+    min-width: 100px;
+    padding: 12px;
+    background-color: #1e6ceb;
+    border-radius: 100px;
+    border: none;
+    font-size: 12px;
+    font-family: "Nunito", sans-serif;
+    color:#fff;
+    cursor:pointer;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-shadow: 0px 0px 0px 0px #b2d0ff;
+    transition: all 0.3s ease-in-out;
+}
+
+.scale3X
+{
+    scale: 1.6;
+}
+.scale1X
+{
+    scale: 1.3;
+}
+.flexrow
+{
+    display: flex;
+    padding-top: 10px;
+}
+
+.getCodeButton:hover
+{
+    box-shadow: 0px 0px 0px 5px #b2d0ff;
+    transition: all 0.3s ease-in-out;
+}
+.getCodeButton:active
+{
+  
+    box-shadow: 0px 0px 20px 17px #1e6ceb45;
+    transition: all 0.2s ease-in-out;
+}
+
+.PageWarp
+{
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 100px;
+    display: flex;
+    
+}
+.PageWarp p{
+    font-family: "Nunito", sans-serif;
+}
+.PageWarp ul li{
+    font-family: "Nunito", sans-serif;
+}
+.PageWarp strong{
+    font-family: "Nunito", sans-serif;
+}
+.sidewarp
+{
+    width: 20%;
+    padding: 25px;
+    padding-top: 160px;
+    position: fixed;
+    font-family: 'helvetica', sans-serif; 
+
+}
+.titleSidewarp
+{
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 400;
+    color: #929baa;
+    font-family: 'helvetica', sans-serif; 
+}
+.ContentWarap
+{
+    width: 100%;
+    padding-left: 100px;
+    padding-bottom: 100px;
+    padding-top: 150px;
+    display: flex;
+    justify-content: center;
+    font-family: "Nunito", sans-serif;
+}
+.contentBox
+{
+ width: 800px;
+}
+.StyleListOne
+{
+    line-height: 1.6;
+}
+.StyleListOne ul li 
+{
+    margin-top: 10px;
+}
+.paraStyleOne p
+{
+    margin-top: 10px;
+    line-height: 1.4;
+}
+.paraStyleOne strong
+{
+    margin-bottom: 10px;
+    line-height: 1.6;
+}
+.simpleline
+{
+    height: 1px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-color: #e8e8e8;
+}
+.mainTitle
+{
+    font-size: 135px;
+    line-height: 0.9;
+    letter-spacing: -7px;
+    font-family: 'helvetica', sans-serif; 
+}
+.size20
+{
+    font-size: 55px;
+    letter-spacing: -2px;
+}
+@keyframes gradientAnimation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+  
+  .mainTitle {
+
+    background: linear-gradient(270deg, #ff8a00, #e52e71, #c3ffd3, #11d42b);
+    background-size: 800% 800%;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: gradientAnimation 8s ease infinite;
+    height: 262px;
+    margin-bottom: -50px;
+  }
+  
+.subTitles
+{
+    font-size: 28px;
+    font-weight: 900;
+    letter-spacing: -0.2px;
+}
+.flexrowEnd
+{
+    display: flex;
+    justify-content: flex-end;
+}
+.flexrowEnd a
+{
+    background-color: transparent;
+    font-weight: 800;
+    color: #000;
+    padding: 0px;
+    margin: 0px;
+    font-size: 16px;
+
+}
+.sidewarp ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .sidewarp ul li {
+    position: relative;
+    cursor: pointer;
+    padding: 6px 0;
+    transition: color 0.3s ease;
+    text-transform: capitalize;
+  }
+  
+  .sidewarp ul li::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    background-color: #000; 
+    left: 0;
+    bottom: 0;
+    transform: scaleX(0);
+    transform-origin: bottom right;
+    transition: transform 0.3s ease;
+    border-radius: 1px;
+  }
+  
+  .sidewarp ul li:hover::after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+  }
+  
+  .sidewarp ul li:hover {
+    color: #000000;
+  }
+  .sidewarp ul li.active {
+    font-weight: bold;
+    color: #000000;
+  }
+  
+  .sidewarp ul li.active::after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+    border-radius: 5px;
+  }
+.grayAria
+{
+    color: #38455d;
+}
+.longimg
+{
+    width: 100%;
+    margin-top: 25px;
+    border-radius: 25px;
+}
+  .highlight {
+    cursor: pointer;
+  }
+  
+  .overlay {
+    background-color: #ffffc3;
+    color: black;
+    border-radius: 15px;
+    padding: 10px;
+    display: block;
+
+  }
+  .cardWrap {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 20px;
+  }
+  .card {
+    width: 30%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+    text-align: center;
+    background-color: #fff;
+  }
+  
+  .card img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .card h3 {
+    margin: 16px 0 8px;
+    font-size: 1.5em;
+  }
+  
+  .card p {
+    padding: 0 16px 16px;
+    font-size: 1em;
+    color: #666;
+  }
+
+  .paraStyleOne h3{
+    margin-top: 15px;
+    font-size: 16px;
+    font-family: "Nunito", sans-serif;
+  }
+@keyframes mymove {
+    100% {box-shadow: 0px 0px 0px 5px #b2d0ff;}
+  }

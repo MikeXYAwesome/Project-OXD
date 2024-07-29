@@ -1,0 +1,42 @@
+{
+    "title": "Tabs",
+    "componentName": "Tabs",
+    "variantsTitle": "Variants",
+    "variants": [
+        {
+          "title": "Top Menu Tabs",
+          "imageSrc": "/img/comsvg/tb01.svg"
+        },
+        {
+          "title": "Side Menu Tabs",
+          "imageSrc": "/img/comsvg/tb02.svg"
+        }
+      
+       
+      ],
+    "stylesTitle": "Styles",
+    "cssCodePath": "/styles/testcss.css",
+    "buttonSizesTitle": "Button Sizes",
+   
+    "themeSupportTitle": "Theme Support",
+    "themeSupportText": "No",
+    "themeSupportImageSrc": "/img/oxd-error.svg",
+    "themeVariants": [
+         
+    ],
+ 
+    "behaviorsTitle": "Behaviours and Rules",
+    "behaviorsList": [
+    "Only use OXD cards.",
+    "Limit side tabs to a maximum of 25 items.",
+    "Top menu tabs can also have up to 25 items. Tabs that do not have space to be displayed will be placed under a 'More' icon as a dropdown, similar to the OXD main navigation.",
+    "Tab item labels should always be in title case."
+       
+    ],
+    "spacingTitle": "",
+    "spacingVariants": [
+    
+     
+    ]
+  }
+  

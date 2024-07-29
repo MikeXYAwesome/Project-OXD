@@ -1,0 +1,72 @@
+{
+    "title": "Light-Boxes",
+    "componentName": "LightBox",
+    "variantsTitle": "Variants",
+    "variants": [
+        {
+          "title": "Default",
+          "imageSrc": "/img/comsvg/lx01.svg"
+        },
+        {
+          "title": "Editable (With Button)",
+          "imageSrc": "/img/comsvg/lx02.svg"
+        },
+        {
+          "title": "Status Color adapting",
+          "imageSrc": "/img/comsvg/lx03.svg"
+        },
+        {
+          "title": "With Profile Pic With Details",
+          "imageSrc": "/img/comsvg/lx04.svg"
+        },
+        {
+          "title": "With Progress Status",
+          "imageSrc": "/img/comsvg/lx05.svg"
+        },
+        {
+            "title": "With Mini Bar Chart",
+            "imageSrc": "/img/comsvg/lx06.svg"
+        },
+        {
+            "title": "With Multiple Buttons",
+            "imageSrc": "/img/comsvg/lx09.svg"
+        },
+        {
+            "title": "With Employee Profile Pics",
+            "imageSrc": "/img/comsvg/lx07.svg"
+        },
+        {
+            "title": "Cube Size (Readonly)",
+            "imageSrc": "/img/comsvg/lx08.svg"
+        }
+       
+      ],
+    "stylesTitle": "Styles",
+    "cssCodePath": "/styles/testcss.css",
+    "buttonSizesTitle": "Button Sizes",
+   
+    "themeSupportTitle": "Theme Support",
+    "themeSupportText": "Yes",
+    "themeSupportImageSrc": "/img/oxd-correct.svg",
+    "themeVariants": [
+   
+    ],
+ 
+    "behaviorsTitle": "Behaviours and Rules",
+    "behaviorsList": [
+        "Light boxes are good for displaying lightweight information in an infographic way with quick edit capabilities.",
+        "Highly supports themes and custom colors.",
+        "Should not support more than 3 quick actions (only 3 buttons).",
+        "Custom icons and titles can be used depending on the project.",
+        "Do not use long labels."
+    ],
+    "spacingTitle": "Spacing & Alignments",
+    "spacingVariants": [
+      {
+        "title": "",
+        "imageSrc": "/img/compng/lxgap1.png"
+      }
+     
+    ]
+  }
+  

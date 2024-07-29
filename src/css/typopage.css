@@ -1,0 +1,200 @@
+h1 {margin: 0px; line-height: 1;}
+.typoPageWarp h2 
+{
+  font-family: 'helvetica', sans-serif; 
+}
+.typoPageWarp
+{
+    padding-top: 110px;
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-bottom: 250px;
+}
+.typoSubtitle
+{
+  font-family: 'helvetica', sans-serif; 
+  letter-spacing: -1px;
+  font-size: 40px;
+  font-weight: 800;
+  color: #011627;
+}
+.typotitle
+{
+  margin-top: -85px;
+  position: absolute;
+}
+.blockWrap
+{
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  max-width: 1400px;
+  column-gap: 50px;
+  margin-top: 25px;
+
+}
+.typobg
+{
+    width: 600px;
+    border-radius: 50px;
+    /* box-shadow: 0px 19px 35px 0px #0116271c; */
+}
+.simplelineW
+{
+    height: 1px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-color: #ffffff;
+    margin-top: 10px;
+  
+}
+.title2
+{
+    font-weight: 900;
+    font-size: 100px;
+    margin: 0px;
+    margin-top: 50px;
+    font-family: "Nunito", sans-serif;
+    color: #397542;
+}
+.title1
+{
+    margin: 0px;
+    font-family: "Nunito", sans-serif;
+}
+
+.typoRowWarp
+{
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    margin-top: 100px;
+}
+
+.typoRow
+{
+  display: flex;
+  width: 100%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  flex-direction: column;
+  justify-content: space-between;
+  align-content: center;
+  column-gap: 100px;
+
+}
+.typolable
+{
+    font-family: "Nunito", sans-serif;
+    font-weight: 100;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+.typotxt
+{
+    font-size: 50px;
+    font-family: "Nunito", sans-serif;
+    text-align: left;
+}
+.typo-detail
+{
+    width: 600px;
+    line-height: 2;
+    font-family: "Nunito", sans-serif;
+}
+.showStyles
+{
+    font-family: "Nunito", sans-serif;
+    padding: 8px;
+    margin-top: 5px;
+    background-color:hsl(129, 35%, 65%);
+    color: #ffffff;
+    border-radius: 10px;
+    font-size: 12px;
+    height: fit-content;
+    width: fit-content;
+}
+.headerDefault {
+    font-size: 16px;
+    font-weight: 400;
+    color: #64728c;
+  }
+  
+  .headerMain {
+    font-size: 46px;
+    font-weight: 800;
+    color: #38455d;
+  }
+  
+  .titleMain {
+    font-size: 18px;
+    font-weight: 700;
+    color: #38455d;
+  }
+  
+  .titleSub {
+    font-size: 12px;
+    font-weight: 600;
+    color: #929baa;
+  }
+  
+  .headerCard {
+    font-size: 16px;
+    font-weight: 600;
+    color: #64728c;
+  }
+  
+  .subHeaderCard {
+    font-size: 14px;
+    font-weight: 600;
+    color: #64728c;
+  }
+  
+  .helpText {
+    font-size: 12px;
+    font-weight: 400;
+    color: #929baa;
+  }
+  
+  .textDefault {
+    font-size: 14px;
+    font-weight: 400;
+    color: #64728c;
+  }
+  
+  .textList {
+    font-size: 12px;
+    font-weight: 600;
+    color: #64728c;
+  }
+  
+  .oxdLinks {
+    font-size: 12px;
+    font-weight: 600;
+    color: #fb4b15
+  }
+  .oxdtime {
+    font-size: 14px;
+    font-weight: 600;
+    color: #38455d;
+    font-family: 'helvetica', sans-serif; 
+  }
+  
+  .paragraphText {
+    font-size: 12px;
+    line-height: 14px;
+    font-weight: 400;
+    color: #64728c;
+  }
+/* The typing effect */
+@keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+  }
+  
+  /* The typewriter cursor effect */
+  @keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: orange; }
+  }

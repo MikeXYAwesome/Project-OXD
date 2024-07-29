@@ -1,0 +1,74 @@
+{
+    "title": "Text-aria",
+    "componentName": "TextAria",
+    "variantsTitle": "Variants",
+    "variants": [
+        {
+          "title": "Default",
+          "imageSrc": "/img/comsvg/ta01.svg"
+        },
+        {
+          "title": "Focus",
+          "imageSrc": "/img/comsvg/ta02.svg"
+        },
+        {
+          "title": "Read-Only",
+          "imageSrc": "/img/comsvg/ta03.svg"
+        },
+        {
+          "title": "Error",
+          "imageSrc": "/img/comsvg/ta04.svg"
+        },
+        {
+          "title": "Correct / Auto-Saved",
+          "imageSrc": "/img/comsvg/ta05.svg"
+        },
+        {
+            "title": "Generated",
+            "imageSrc": "/img/comsvg/ta06.svg"
+        },
+        {
+            "title": "Draft / Warning",
+            "imageSrc": "/img/comsvg/ta07.svg"
+        },
+        {
+            "title": "Scroll and Expand view",
+            "imageSrc": "/img/comsvg/ta08.svg"
+        }
+
+        
+        
+      ],
+    "stylesTitle": "Styles",
+    "cssCodePath": "/styles/testcss.css",
+
+   
+    "themeSupportTitle": "Theme Support",
+    "themeSupportText": "No",
+    "themeSupportImageSrc": "/img/oxd-error.svg",
+    "themeVariants": [
+   
+    ],
+ 
+    "behaviorsTitle": "Behaviours and Rules",
+    "behaviorsList": [
+        "Ensure the text area is responsive and works well on various devices and screen sizes.",
+        "Ensure the text area is keyboard navigable and supports screen readers with appropriate ARIA roles and labels.",
+        "The text area will initially show only 5 lines. Clicking on it will expand the box to display the full content.",
+        "Fixed positions will not expand; instead, a scrollbar will appear if there are more than 5 lines.",
+        "The text area should be editable inline.",
+        "Ensure the text area has a clear focus state to indicate it is active.",
+        "If needed, Provide a character count limit and display the remaining characters dynamically.",
+        "Implement auto-save functionality to prevent loss of data.",
+        "Support basic text formatting options like bold, italic, and underline."
+    ],
+    "spacingTitle": "Spacing & Alignments",
+    "spacingVariants": [
+      {
+        "title": "",
+        "imageSrc": "/img/compng/tagap1.png"
+      }
+     
+    ]
+  }
+  

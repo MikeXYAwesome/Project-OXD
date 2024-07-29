@@ -1,0 +1,49 @@
+{
+    "title": "Progress Dial",
+    "componentName": "ProgressDial",
+    "variantsTitle": "Variants",
+    "variants": [
+        {
+          "title": "Default With percentage(0%-100%)",
+          "imageSrc": "/img/comsvg/pd01.svg"
+        },
+        {
+          "title": "With Profile Pic",
+          "imageSrc": "/img/comsvg/pd02.svg"
+        },
+        {
+          "title": "With Number",
+          "imageSrc": "/img/comsvg/pd03.svg"
+        }
+      
+       
+      ],
+    "stylesTitle": "Styles",
+    "cssCodePath": "/styles/testcss.css",
+    "buttonSizesTitle": "Button Sizes",
+   
+    "themeSupportTitle": "Theme Support",
+    "themeSupportText": "Yes",
+    "themeSupportImageSrc": "/img/oxd-correct.svg",
+    "themeVariants": [
+   
+    ],
+ 
+    "behaviorsTitle": "Behaviours and Rules",
+    "behaviorsList": [
+        "Can be used with numbers up to 3 digits, or 2 digits with one floating point, or to represent 24hr, 360 degrees, or 100%.",
+        "Only one dial can be used per screen.",
+        "Do not use in the middle of a form; use in more individual, prominent situations.",
+        "Supports two-line labels outside the dial.",
+        "Does not contain any disabled or read-only status; do not use if the behavior requires it."
+    ],
+    "spacingTitle": "Spacing & Alignments",
+    "spacingVariants": [
+      {
+        "title": "",
+        "imageSrc": "/img/compng/dialgap1.png"
+      }
+     
+    ]
+  }
+  

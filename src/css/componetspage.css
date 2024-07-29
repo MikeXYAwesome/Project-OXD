@@ -1,0 +1,207 @@
+.ComPageWarp
+{
+    box-sizing: border-box;
+    margin: 0px;
+    background-color: #f9fafa;
+    height: auto;
+    min-height: 1000px;
+    margin-right: 50px;
+    margin-right: 50px;
+    padding: 50px;
+    border-radius: 25px;
+    color:#011627;
+    font-family: "Nunito", sans-serif;
+    margin-bottom: 100px;
+}
+
+.ComTitleRow
+{
+    padding-bottom: 20px;
+    padding-top: 20px;
+    border-bottom: 1px solid #cfd3de;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.ComTitleRow:first-child{ padding-top: 0px;}
+
+.ComTitleRow h4
+{
+    font-size: 20px;
+    font-weight: 800;
+    color: #38455d;
+    font-family: "Nunito", sans-serif;
+}
+
+.comName
+{
+    color: #1e6ceb;
+}
+
+.variantsWarp
+{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    justify-items: stretch;
+    justify-content: space-between;
+    align-content: space-between;
+    column-gap: 15px;
+    row-gap: 15px;
+    padding-bottom: 50px;
+    padding-top: 25px;
+}
+
+.VBox
+{
+    background-color: #fff;
+    min-height:300px;
+    border-radius: 25px;
+    padding:25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    color: #64728c;
+    overflow: hidden;
+
+}
+.VBox img
+{
+    max-width: 400px;
+}
+.Vimg
+{
+    padding: 25px;
+    padding-top: 35px;
+    border-radius: 25px;
+}
+.codebt
+{
+    width: 35px;
+    height: 35px;
+    border: none;
+    background: #fff;
+    border-radius: 50px;
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    padding: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow:  20px 20px 60px #d9d9d9,
+    -20px -20px 60px #ffffff;
+    display: none;
+}
+
+.codebt img
+{
+    width: 100%;
+   
+}
+.StyleSnipit
+{
+    display: none;
+    border-radius: 20px;
+    background-color: #fff;
+    padding: 25px;
+    position: absolute;
+    color: coral;
+    font-size: 12px;
+    font-weight: 800;
+    box-shadow:  20px 20px 60px #d9d9d9,
+             -20px -20px 60px #ffffff;
+}
+.codebt:hover + .StyleSnipit
+{
+    display: block;
+    width: 300px;
+    height: auto;
+}
+.Vtitle
+{
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+.bodernone
+{
+    border: none;
+}
+
+.listViewWrap ul li
+{
+    margin-top: 10px;
+    color: #64728c;
+    font-size: 14px;
+}
+
+.ComTitleRow:first-child h4
+{
+    font-size: 30px;
+}
+
+.ComPageWarp:hover a
+{
+    color: greenyellow;
+}
+
+.skeleton-card
+{
+    width: 400px;
+    height: 400px;
+    background-color: #eaeaea;
+}
+.errorwrap
+{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-content: center;
+    flex-wrap: wrap;
+    margin-top: 100px;
+}
+.notfoundimg
+{
+    width: 500px;
+}
+
+.not-found-container {
+
+    padding: 50px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .not-found-title {
+    font-size: 2.5em;
+    color: #333;
+  }
+  
+  .not-found-message {
+    font-size: 1.2em;
+    color: #666;
+    margin-top: 20px;
+  }
+  
+  .not-found-options {
+    margin-top: 20px;
+    font-size: 1em;
+    color: #444;
+  }
+  
+  .not-found-options ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .not-found-options li {
+    margin: 10px 0;
+  }
+  
+  .not-found-coffee {
+    margin-top: 30px;
+    font-size: 1.5em;
+    color: #999;
+  }
+  

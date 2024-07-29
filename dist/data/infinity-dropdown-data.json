@@ -1,0 +1,74 @@
+{
+    "title": "Infinity Dropdown",
+    "componentName": "InfinityDropdown",
+    "variantsTitle": "Variants",
+    "variants": [
+        {
+          "title": "Default",
+          "imageSrc": "/img/comsvg/ac01.svg"
+        },
+        {
+          "title": "Focus",
+          "imageSrc": "/img/comsvg/ac02.svg"
+        },
+        {
+          "title": "Read-Only",
+          "imageSrc": "/img/comsvg/ac03.svg"
+        },
+        {
+          "title": "Error",
+          "imageSrc": "/img/comsvg/ac04.svg"
+        },
+        {
+          "title": "Correct / Auto-Saved",
+          "imageSrc": "/img/comsvg/ac05.svg"
+        },
+        {
+            "title": "Generated/ Auto Selected",
+            "imageSrc": "/img/comsvg/ac06.svg"
+        },
+        {
+            "title": "Draft / Warning",
+            "imageSrc": "/img/comsvg/ac07.svg"
+        },
+        {
+            "title": "With Profile Pic and ID",
+            "imageSrc": "/img/comsvg/ac08.svg"
+        },
+        {
+            "title": "Drawer Open",
+            "imageSrc": "/img/comsvg/idd01.svg"
+        }
+        
+      ],
+    "stylesTitle": "Styles",
+    "cssCodePath": "/styles/testcss.css",
+
+   
+    "themeSupportTitle": "Theme Support",
+    "themeSupportText": "No",
+    "themeSupportImageSrc": "/img/oxd-error.svg",
+    "themeVariants": [
+   
+    ],
+ 
+    "behaviorsTitle": "Behaviours and Rules",
+    "behaviorsList": [
+        "Behavior-wise, it is very similar to an autocomplete dropdown, but this will show 10 suggestions instead of 5.",
+        "The full data will always be loaded and can be scrollable by default.",
+        "For larger datasets, progressive loading can be used in the drawer for more than 100 items.",
+        "The profile picture will appear only after selecting an employee.",
+        "The remove icon will appear only after selecting an item.",
+        "The remove icon will not appear in read-only mode.",
+        "The first suggestion that closely matches what you type will be highlighted by default."
+    ],
+    "spacingTitle": "Spacing & Alignments",
+    "spacingVariants": [
+      {
+        "title": "",
+        "imageSrc": "/img/compng/idgap1.png"
+      }
+     
+    ]
+  }
+  

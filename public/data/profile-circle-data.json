@@ -1,0 +1,73 @@
+{
+    "title": "Profile Circles",
+    "componentName": "ProfileCircles",
+    "variantsTitle": "Variants",
+    "variants": [
+        {
+          "title": "Default with ring",
+          "imageSrc": "/img/comsvg/pp01.svg"
+        },
+        {
+          "title": "Editable",
+          "imageSrc": "/img/comsvg/pp02.svg"
+        },
+        {
+          "title": "Status Indicate",
+          "imageSrc": "/img/comsvg/pp03.svg"
+        },
+        {
+          "title": "Error Indicate",
+          "imageSrc": "/img/comsvg/pp04.svg"
+        },
+        {
+          "title": "Group",
+          "imageSrc": "/img/comsvg/pp05.svg"
+        },
+        {
+            "title": "Size Samll",
+            "imageSrc": "/img/comsvg/pp06.svg"
+        },
+        {
+            "title": "Size Medium",
+            "imageSrc": "/img/comsvg/pp08.svg"
+        },
+        {
+            "title": "Size Large",
+            "imageSrc": "/img/comsvg/pp09.svg"
+        },
+        {
+            "title": "Pill Shape (Group)",
+            "imageSrc": "/img/comsvg/pp07.svg"
+        }
+      
+       
+      ],
+    "stylesTitle": "Styles",
+    "cssCodePath": "/styles/testcss.css",
+    "buttonSizesTitle": "Button Sizes",
+   
+    "themeSupportTitle": "Theme Support",
+    "themeSupportText": "Yes (Rings Will Suppot Themes If Allowed) ",
+    "themeSupportImageSrc": "/img/oxd-correct.svg",
+    "themeVariants": [
+   
+    ],
+ 
+    "behaviorsTitle": "Behaviours and Rules",
+    "behaviorsList": [
+        "This has 4 sizes: Small (35px), Medium (45px), Large (100px), and XL (150px).",
+        "Small and Medium sizes will not have rings around the picture.",
+        "The pill shape version is ideal for showcasing individuals well and using the same horizontal space to show multiple profile pictures at once. It is better for displaying teams or groups of people together.",
+        "Loading will show a skeleton loader."
+ 
+    ],
+    "spacingTitle": "Spacing & Alignments",
+    "spacingVariants": [
+      {
+        "title": "",
+        "imageSrc": "/img/compng/ppgap1.png"
+      }
+     
+    ]
+  }
+  

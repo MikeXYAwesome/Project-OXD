@@ -1,0 +1,112 @@
+.GuideCardWrap
+{
+    height: 600px;
+    max-width: 360px;
+    border-radius: 50px;
+    background-color: rgb(234, 234, 234);
+    animation: animateBg 2s linear infinite;
+    background-image: linear-gradient(0deg,#91ee8f,#ffffff,#f0f96f,#fca55e,#76e674,#ffffff);
+    background-size: 100% 500%;
+    overflow: hidden;
+    position: relative;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    margin-bottom: 50px;
+}
+
+  @keyframes animateBg {
+    0% { background-position: 0% 100%; }
+    100% { background-position: 0% 0%; }
+  }
+  
+
+.GuideDetailWrap a
+{
+    padding: 0px;
+    background-color: transparent;
+    margin: 0px;
+}
+
+.GuideCardbg
+{
+    position: absolute;
+    height: 100%;
+    z-index: 1;
+    transition:  transform 1s;
+}
+.GuideDetailWrap
+{
+    z-index: 1;
+    position: absolute;
+    width: 100%;
+    padding: 35px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    background: -moz-linear-gradient(205deg, rgba(255,255,255,0) 29%, rgba(0,0,0,0.05) 100%);
+    background: -webkit-linear-gradient(205deg, rgba(255,255,255,0) 29%, rgba(0,0,0,0.05) 100%);
+    background: linear-gradient(205deg, rgba(255,255,255,0) 29%, rgba(0,0,0,0.05) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ffffff",endColorstr="#000000",GradientType=1);
+}
+
+.guideCardTitle
+{
+    font-size: 38px;
+    font-weight: 900;
+    letter-spacing: -1px;
+    margin-bottom: 10px;
+}
+
+.guideCardDis
+{
+    font-size: 12px;
+    font-weight: 400;
+    margin-bottom: 15px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+}
+
+.textColor-black
+{
+    color: #000;
+}
+.textColor-white
+{
+    color: #ffffff;
+}
+
+.guideCardBt
+{
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    color: #000;
+    font-size: 14px;
+    font-weight: 600;
+    background-color: rgb(255 255 255 / 60%);
+    border-radius: 100px;
+    border: none;
+    font-family: "Nunito", sans-serif;
+    backdrop-filter: blur(8px);
+}
+
+.guideCardBt:hover
+{
+    background-color: #fff;
+}
+
+.GuideCardWrap:hover .GuideCardbg
+{
+    transform: scale(1.2);
+    transition-timing-function: ease-in-out;
+}
+

@@ -1,0 +1,53 @@
+{
+    "title": "List Box",
+    "componentName": "ListBox",
+    "variantsTitle": "Variants",
+    "variants": [
+        {
+          "title": "Default",
+          "imageSrc": "/img/comsvg/li01.svg"
+        },
+        {
+          "title": "With Title",
+          "imageSrc": "/img/comsvg/li02.svg"
+        },
+        {
+          "title": "With Pagination",
+          "imageSrc": "/img/comsvg/li03.svg"
+        },
+        {
+            "title": "With tab menu",
+            "imageSrc": "/img/comsvg/li04.svg"
+        }
+   
+      
+      ],
+    "stylesTitle": "Styles",
+    "cssCodePath": "/styles/testcss.css",
+ 
+    "themeSupportTitle": "Theme Support",
+    "themeSupportText": "No",
+    "themeSupportImageSrc": "/img/oxd-error.svg",
+    "themeVariants": [
+   
+    ],
+ 
+    "behaviorsTitle": "Behaviours and Rules",
+    "behaviorsList": [
+        "List boxes use a simple table list view to showcase small list tables.",
+  "Supports a maximum of 8 columns.",
+  "Width and height depend on the container size (minimum height 450px).",
+  "Do not use as a data grid or for large OXD lists, as it can be overcrowded for list box views.",
+  "Pagination can be used as component support.",
+  "Inline editing will be supported for editable items.",
+  "A skeleton loader will be displayed while loading the list.",
+  "The first 10 items will be loaded first, and the rest will be progressively loaded.",
+  "An empty message should be displayed when the list is empty."
+    ],
+    "spacingTitle": "Spacing & Alignments",
+    "spacingVariants": [
+     
+     
+    ]
+  }
+  

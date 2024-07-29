@@ -1,0 +1,460 @@
+.bentobox
+{
+    display: flex;
+    border-radius: 50px;
+    background-color: #f0f0f0;
+    flex-direction: column;
+    height: inherit;
+    align-content: space-between;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: 35px;
+    box-sizing: border-box;
+}
+
+.bentobox a
+{
+     background-color:  rgb(0 0 0 / 33%);
+     backdrop-filter: blur(10px);
+     font-weight: 500;
+     z-index: 100;
+}
+.bentobox p
+{
+    margin-top: 15px;
+    font-weight: 400;
+}
+h1{ margin: 0;}
+
+.bentobox h1
+{
+    line-height: 1;
+    font-size: 32px;
+    font-optical-sizing: auto;
+    font-weight: 900;
+    letter-spacing: -2px;
+}
+
+.mainBentoBox
+{
+    background-color: hsl(82.12deg 100% 72.16% / 82%);
+    background-image: url("../assets/img/mainbg29.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-bottom: 45px;
+    box-shadow: 10px 10px 60px #e8e8e859, -1px -19px 30px 20px #ffffff;
+    z-index: 10;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+}
+.animatinMainbox
+{
+    width: 100%;
+    height: 750px;
+    margin-top: -100px;
+    position: absolute;
+  
+}
+.mainBentoBox:hover{
+    scale: 1.0;
+    
+}
+.mainBentoBox h1{
+    font-size: 115px;
+    color: #0b7712;
+    margin-top: -6px;
+    z-index: 100;
+    position: relative;
+    line-height: 0.95;
+}
+
+.mainBentoBox  a
+{
+    background-color: #fff;
+    color: #000;
+}
+.mainBentoBox p
+{
+    font-size: 16px;
+    padding-left: 5px;
+    z-index: 100;
+    position: relative;
+    width: 600px;
+    font-weight: 300;
+    margin-top: 15px;
+    color: #0b0b0b;
+
+}
+.orangeIcon
+{
+    position: absolute;
+    right: 135px;
+    width: 80px;
+}
+.mainSpine
+{
+    width: 1100px;
+    margin-top: 55px;
+    position: absolute;
+    right: 135px;
+}
+.rocket
+{
+    width: 400px;
+    margin-top: 140px;
+    right: 1200px;
+    position: absolute;
+}
+a{
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+    font-weight: 400;
+    text-decoration: none;
+    font-family: 'Nunito', sans-serif;
+    text-decoration: none;
+    padding: 16px;
+    padding-left: 30px;
+    padding-right: 30px;
+    background-color: rgb(0, 0, 0);
+    border-radius: 100px;
+    z-index: 100;
+}
+
+.designbentobox
+{
+    padding: 0px;
+    overflow: hidden;
+    background: rgb(63,233,251);
+    background: radial-gradient(circle, rgb(255, 255, 255) 0%, rgb(238, 254, 255) 31%, rgba(74,155,231,1) 100%);
+    background-image: url("../assets/img/iceburg15.png");
+    background-size: cover;
+}
+.BentoClude
+{
+    width: 200px;
+    margin-top: -570px;
+    margin-left: 100px;
+    transition:  transform 1s;
+}
+.designbentobox:hover .BentoClude
+{
+    
+    transform: translate(-52px);
+}
+
+.designbentobox h1
+{
+    color: rgb(255, 255, 255);
+    margin: 35px;
+    font-size: 40px;
+}
+.designbentobox a
+{
+    margin: 35px;
+    background: rgba(255, 255, 255,0.9);
+    color: black;
+ 
+}
+.oimbentobox
+{
+    background-color:#ffefe3;
+    transition-timing-function: ease-in-out;
+}
+.oimbentobox h1
+{
+    color: #fb7a1d;
+}
+.oimbentobox a
+{
+    background-color: #fb7a1d;
+    color: #fff;
+}
+.waveWrap
+{
+    height: 615px;
+    width: 500px;
+    margin-top: 235px;
+    position: absolute;
+    overflow: hidden;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    z-index: 10;
+    mix-blend-mode:multiply;
+}
+.icewave
+{
+    height: 100%;
+}
+.iceBuge
+{
+    position: absolute;
+    width: 380px;
+    margin-top: 170px;
+    margin-left: 50px;
+    z-index: 2;
+}
+
+.figmabetobox
+{
+    background-color:hsl(264deg 100% 90.2%);
+    /* background-image: url("../assets/img/figmabg6.jpg");
+    background-size: cover;
+    background-position: 20% 80%; */
+}
+.figmabetobox h1
+{
+    color: #5e4185;
+    line-height: 1.1;
+}
+.figmaLogo
+{
+    position: absolute;
+    width: 175px;
+    margin-left: 33px;
+    margin-top: 54px;
+    transition-timing-function: ease-in-out;
+    transition:  transform 1s;
+}
+.figmabetobox a
+{
+    background-color: rgb(145 88 227 / 78%);
+}
+
+.figmabetobox:hover .figmaLogo
+{
+    /* transform: rotate(360deg); */
+    transform: scale(1.15);
+}
+
+.uxbentobox
+{
+    overflow: hidden;
+    background-color: #f3e4e1;
+    /* background-image: url("../assets/img/uxbg7.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center; */
+}
+
+.uxbentobox a
+{
+background-color: #0287ff;
+color: #fff;
+}
+.uxbentobox h1
+{
+    color: #735050;
+    line-height: 1.1;
+}
+
+.uxbentoimg
+{
+    width: 380px;
+    position: absolute;
+    margin-top: 109px;
+    margin-left: 40px;
+}
+
+.uxperson
+{
+    width: 475px;
+    position: absolute;
+    margin-top: 29px;
+    margin-left: 125px;
+    transition:  transform 1s;
+}
+.uxbentobox:hover .uxperson
+{
+    transform: translate(0px);
+}
+.uxperson:hover
+{
+    scale: 1.0;
+}
+.madebywrap
+{
+    background-image: url("/src/assets/img/madebybg8.jpg");
+    background-size: cover;
+    background-position: center;
+    background-color: #cbffeb;
+}
+.madebywrap a
+{
+    background-color: #13693b;
+    color: #fff;
+}
+.madebywrap h1
+{
+    color: #13693b;
+}
+.greenlight
+{
+    position: absolute;
+    width: 500px;
+    margin-top: 107px;
+    margin-left: 191px;
+    backdrop-filter: drop-shadow(2px 4px 6px black);
+    display: none;
+}
+.oimimg
+{
+    width: 687px;
+    position: absolute;
+    margin-left: 226px;
+    margin-top: -98px;
+}
+
+.lightOn
+{
+    width: 450px;
+    position: absolute;
+    margin-left: 258px;
+    margin-top: -200px;
+    mix-blend-mode: screen;
+    opacity: 0.0;
+    transition: opacity .55s ease-in-out;
+    
+}
+.oimbentobox:hover .lightOn{
+    opacity: 1.0;
+    transition: opacity .55s ease-in-out;
+}
+
+
+.bentoiconWrap
+{
+    background-color: #c1f2f0;
+    height: 450px;
+    overflow: hidden;
+    position: relative;
+}
+.bentoiconWrap h1
+{
+    color: #0a6a8d;
+}
+.icongirl
+{
+    width: 385px;
+    position: absolute;
+    margin-top: -20px;
+    margin-left: -30px;
+    z-index: 50;
+}
+.icontop
+{
+    width: 300px;
+    position: absolute;
+    z-index: 20;
+    margin-top: 42px;
+    margin-left: 10px;
+}
+.iconbottom
+{
+    width: 300px;
+    position: absolute;
+    margin-top: 200px;
+    margin-left: 20px;
+    z-index: 100;
+}
+
+.componetwarp
+{
+    background-image: url("/src/assets/img/combg13.jpg");
+    background-size: cover;
+    background-position: right;
+    position: relative;
+    overflow: hidden;
+}
+.componetwarp a
+{
+    background-color: #ffb301;
+    backdrop-filter: blur(10px);
+    color: #fff;
+}
+.componetwarp h1
+{
+    color :#ffb301
+}
+.comExtendpng
+{
+    width: 63px;
+    right: -64px;
+    position: absolute;
+    margin-top: 114px;
+}
+.switchWrap
+{
+    width: 74px;
+    height: 41px;
+    background-color: #ff7b1d;
+    border-radius: 50px;
+    margin-left: 468px;
+    margin-top: 31px;
+    border: 1px solid #e16c18;
+    transition: all 1s ease-out;
+}
+
+.switchRound
+{
+    width: 37px;
+    height: 37px;
+    background-color: #fff;
+    border-radius: 50px;
+    border: 1px solid #f6f5f5;
+    margin-top: 1px;
+    margin-left: 1px;
+    box-shadow: 3px 5px 7px rgb(0 0 0 / 18%), -5px -5px 10px rgb(255 255 255 / 15%);
+    transition:  transform 1s;
+}
+
+.componetwarp:hover .switchRound
+{
+    transform: translate(32px);
+}
+.componetwarp:hover .switchWrap
+{
+    background-color:#77bd20;
+    transition: background-color(#77bd20) ease-in-out;
+    border: 1px solid #6ba920;
+    transition: all 1s ease-out;
+    
+}
+.thehand
+{
+    width: 400px;
+    position: absolute;
+    right: -56px;
+    margin-top: 160px;
+    transition: all .65s ease-out;
+}
+
+.componetwarp:hover .thehand
+{
+    transform: translate(35px);
+    transition: all .65s ease-out;
+}
+
+.qabentowrap
+{
+    background-image: url("/src/assets/img/qabg9.jpg");
+    background-size: cover;
+    height: 450px;
+    background-position: center;
+}
+.widgetsbentowrap
+{
+    /* background-image: url("/src/assets/img/wegitebg9.jpg");
+    background-size: cover;
+    background-position: center; */
+    height: 450px;
+    background-color: #d9ee9f;
+}
+.WidgetsMan
+{
+    width: 425px;
+    margin-top: 8px;
+    margin-left: -37px;
+    position: absolute;
+}

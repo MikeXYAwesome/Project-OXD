@@ -1,0 +1,46 @@
+{
+    "title": "Help PopUp",
+    "componentName": "HelpPopup",
+    "variantsTitle": "Variants",
+    "variants": [
+        {
+          "title": "Default",
+          "imageSrc": "/img/comsvg/hp01.svg"
+        },
+        {
+          "title": "with Sort message",
+          "imageSrc": "/img/comsvg/hp02.svg"
+        },
+        {
+          "title": "With Action Button or Links",
+          "imageSrc": "/img/comsvg/hp03.svg"
+        }
+      ],
+    "stylesTitle": "Styles",
+    "cssCodePath": "/styles/testcss.css",
+
+   
+    "themeSupportTitle": "Theme Support",
+    "themeSupportText": "No",
+    "themeSupportImageSrc": "/img/oxd-error.svg",
+    "themeVariants": [
+   
+    ],
+ 
+    "behaviorsTitle": "Behaviours and Rules",
+    "behaviorsList": [
+        "Will appear on hover over the help badge/icon.",
+        "The help popup contains more information about an action or input field, guidelines, and hints.",
+        "A good way to handle long input labels is to use a short version of the label on the surface of the UI and place the rest of the long label in the popup.",
+        "You can also use an info badge or icon to indicate some information, tips, legends or guidelines."
+    ],
+    "spacingTitle": "Spacing & Alignments",
+    "spacingVariants": [
+      {
+        "title": "",
+        "imageSrc": "/img/compng/hpgap1.png"
+      }
+     
+    ]
+  }
+  

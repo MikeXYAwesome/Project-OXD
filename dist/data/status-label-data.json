@@ -1,0 +1,56 @@
+{
+    "title": "Status Label",
+    "componentName": "StatusLabel",
+    "variantsTitle": "Variants",
+    "variants": [
+        {
+          "title": "Default",
+          "imageSrc": "/img/comsvg/st01.svg"
+        },
+        {
+          "title": "Editable",
+          "imageSrc": "/img/comsvg/st02.svg"
+        }
+      
+       
+      ],
+    "stylesTitle": "Styles",
+    "cssCodePath": "/styles/testcss.css",
+    "buttonSizesTitle": "Button Sizes",
+   
+    "themeSupportTitle": "Theme Support",
+    "themeSupportText": "Yes",
+    "themeSupportImageSrc": "/img/oxd-correct.svg",
+    "themeVariants": [
+         {
+            "title": "exsample 1",
+            "imageSrc": "/img/comsvg/st03.svg"
+          },
+          {
+            "title": "exsample 2",
+            "imageSrc": "/img/comsvg/st04.svg"
+          },
+          {
+            "title": "exsample 3",
+            "imageSrc": "/img/comsvg/st05.svg"
+          }
+    ],
+ 
+    "behaviorsTitle": "Behaviours and Rules",
+    "behaviorsList": [
+        "Use to indicate status in short form.",
+        "Do not have any disabled variants.",
+        "Long labels cannot be used; they will be truncated and will not go to a second line.",
+        "Only labels can be used without icons, but badges can use."
+       
+    ],
+    "spacingTitle": "Spacing & Alignments",
+    "spacingVariants": [
+      {
+        "title": "",
+        "imageSrc": "/img/compng/stgap1.png"
+      }
+     
+    ]
+  }
+  

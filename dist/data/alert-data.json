@@ -1,0 +1,53 @@
+{
+    "title": "Alerts",
+    "componentName": "OxdAlerts",
+    "variantsTitle": "Variants",
+    "variants": [
+        {
+          "title": "Default",
+          "imageSrc": "/img/comsvg/al01.svg"
+        },
+        {
+          "title": "Info Alert",
+          "imageSrc": "/img/comsvg/al02.svg"
+        },
+        {
+          "title": "Warning Alert",
+          "imageSrc": "/img/comsvg/al03.svg"
+        },
+        {
+          "title": "Error Alert",
+          "imageSrc": "/img/comsvg/al04.svg"
+        },
+        {
+          "title": "With a Action Button",
+          "imageSrc": "/img/comsvg/al05.svg"
+        }
+      ],
+    "stylesTitle": "Styles",
+    "cssCodePath": "/styles/testcss.css",
+    "buttonSizesTitle": "Button Sizes",
+   
+    "themeSupportTitle": "Theme Support",
+    "themeSupportText": "No",
+    "themeSupportImageSrc": "/img/oxd-error.svg",
+    "themeVariants": [
+   
+    ],
+ 
+    "behaviorsTitle": "Behaviours and Rules",
+    "behaviorsList": [
+      "These alerts will only appear inside a card or a modal.",
+"The alert will take 100% of the container's width.",
+"The alert should appear below the corresponding element."
+    ],
+    "spacingTitle": "Spacing & Alignments",
+    "spacingVariants": [
+      {
+        "title": "",
+        "imageSrc": "/img/compng/al1.png"
+      }
+     
+    ]
+  }
+  

@@ -1,0 +1,203 @@
+[
+    {
+      "id": 0,
+      "iconName": "emp-user",
+      "iconpath": "img/icons/emp-user.svg"
+    },
+    {
+        "id": 1,
+        "iconName": "emp-add",
+        "iconpath": "img/icons/emp-add.svg"
+    },
+    {
+        "id": 2,
+        "iconName": "emp-delete",
+        "iconpath": "img/icons/emp-delete.svg"
+    },
+    {
+        "id": 3,
+        "iconName": "emp-notification",
+        "iconpath": "img/icons/emp-notification.svg"
+    },
+    {
+        "id": 4,
+        "iconName": "emp-info",
+        "iconpath": "img/icons/emp-info.svg"
+    },
+    {
+        "id": 5,
+        "iconName": "emp-correct",
+        "iconpath": "img/icons/emp-correct.svg"
+    },
+    {
+        "id": 6,
+        "iconName": "emp-contact",
+        "iconpath": "img/icons/emp-contact.svg"
+    },
+    {
+        "id": 7,
+        "iconName": "emp-goal",
+        "iconpath": "img/icons/emp-goal.svg"
+    },
+    {
+        "id": 8,
+        "iconName": "emp-office",
+        "iconpath": "img/icons/emp-office.svg"
+    },
+    {
+        "id": 9,
+        "iconName": "emp-time",
+        "iconpath": "img/icons/emp-time.svg"
+    },
+    {
+        "id": 10,
+        "iconName": "emp-rating",
+        "iconpath": "img/icons/emp-rate.svg"
+    },
+    {
+        "id": 11,
+        "iconName": "emp-search",
+        "iconpath": "img/icons/emp-search.svg"
+    },
+    {
+        "id": 12,
+        "iconName": "emp-edit",
+        "iconpath": "img/icons/emp-edit.svg"
+    },
+    {
+        "id": 13,
+        "iconName": "emp-attachments",
+        "iconpath": "img/icons/emp-attachments.svg"
+    },
+    {
+        "id": 14,
+        "iconName": "emp-comment",
+        "iconpath": "img/icons/emp-comment.svg"
+    },
+    {
+        "id": 15,
+        "iconName": "emp-mail",
+        "iconpath": "img/icons/emp-mail.svg"
+    },
+    {
+        "id": 16,
+        "iconName": "emp-date",
+        "iconpath": "img/icons/emp-date.svg"
+    },
+    {
+        "id": 17,
+        "iconName": "emp-return",
+        "iconpath": "img/icons/emp-return.svg"
+    },
+    {
+        "id": 18,
+        "iconName": "emp-hold",
+        "iconpath": "img/icons/emp-hold.svg"
+    },
+    {
+        "id": 19,
+        "iconName": "emp-more",
+        "iconpath": "img/icons/emp-more.svg"
+    },
+    {
+        "id": 20,
+        "iconName": "emp-download",
+        "iconpath": "img/icons/emp-download.svg"
+    },
+    {
+        "id": 21,
+        "iconName": "emp-options",
+        "iconpath": "img/icons/emp-options.svg"
+    },
+    {
+        "id": 22,
+        "iconName": "emp-chart",
+        "iconpath": "img/icons/emp-chart.svg"
+    },
+    {
+        "id": 23,
+        "iconName": "emp-pie-chart",
+        "iconpath": "img/icons/emp-pie-chart.svg"
+    },
+    {
+        "id": 24,
+        "iconName": "emp-file",
+        "iconpath": "img/icons/emp-file.svg"
+    },
+    {
+        "id": 25,
+        "iconName": "emp-bookmark",
+        "iconpath": "img/icons/emp-bookmark.svg"
+    },
+    {
+        "id": 26,
+        "iconName": "emp-refresh",
+        "iconpath": "img/icons/emp-refresh.svg"
+    },
+    {
+        "id": 27,
+        "iconName": "emp-home",
+        "iconpath": "img/icons/emp-home.svg"
+    },
+    {
+        "id": 28,
+        "iconName": "emp-password",
+        "iconpath": "img/icons/emp-password.svg"
+    },
+    {
+        "id": 29,
+        "iconName": "emp-move",
+        "iconpath": "img/icons/emp-move.svg"
+    },
+    {
+        "id": 30,
+        "iconName": "emp-ai",
+        "iconpath": "img/icons/emp-ai.svg"
+    },
+    {
+        "id": 31,
+        "iconName": "emp-tag",
+        "iconpath": "img/icons/emp-tag.svg"
+    },
+    {
+        "id": 32,
+        "iconName": "emp-power",
+        "iconpath": "img/icons/emp-power.svg"
+    },
+    {
+        "id": 33,
+        "iconName": "emp-share",
+        "iconpath": "img/icons/emp-share.svg"
+    },
+    {
+        "id": 34,
+        "iconName": "emp-show",
+        "iconpath": "img/icons/emp-show.svg"
+    },
+    {
+        "id": 35,
+        "iconName": "emp-location",
+        "iconpath": "img/icons/emp-location.svg"
+    },
+    {
+        "id": 36,
+        "iconName": "emp-okr",
+        "iconpath": "img/icons/emp-okr.svg"
+    },
+    {
+        "id": 37,
+        "iconName": "emp-lock",
+        "iconpath": "img/icons/emp-lock.svg"
+    },
+    {
+        "id": 38,
+        "iconName": "emp-send",
+        "iconpath": "img/icons/emp-send.svg"
+    }
+    
+  
+
+ 
+
+     
+]

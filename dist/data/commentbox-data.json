@@ -1,0 +1,71 @@
+{
+    "title": "Comment box",
+    "componentName": "Commentbox",
+    "variantsTitle": "Variants",
+    "variants": [
+        {
+          "title": "Default",
+          "imageSrc": "/img/comsvg/cm01.svg"
+        },
+        {
+          "title": "Focus",
+          "imageSrc": "/img/comsvg/cm02.svg"
+        },
+        {
+          "title": "Read-Only",
+          "imageSrc": "/img/comsvg/cm03.svg"
+        },
+        {
+          "title": "Error",
+          "imageSrc": "/img/comsvg/cm04.svg"
+        },
+        {
+          "title": "Correct / Auto-Saved",
+          "imageSrc": "/img/comsvg/cm05.svg"
+        },
+        {
+            "title": "Generated",
+            "imageSrc": "/img/comsvg/cm06.svg"
+        },
+        {
+            "title": "Draft / Warning",
+            "imageSrc": "/img/comsvg/cm07.svg"
+        },
+        {
+            "title": "Scroll and Expand view",
+            "imageSrc": "/img/comsvg/cm08.svg"
+        }
+
+        
+        
+      ],
+    "stylesTitle": "Styles",
+    "cssCodePath": "/styles/testcss.css",
+
+   
+    "themeSupportTitle": "Theme Support",
+    "themeSupportText": "No",
+    "themeSupportImageSrc": "/img/oxd-error.svg",
+    "themeVariants": [
+   
+    ],
+ 
+    "behaviorsTitle": "Behaviours and Rules",
+    "behaviorsList": [
+       " Ensure the comment box is responsive and works well on various devices and screen sizes.",
+        "Ensure the comment box is keyboard navigable and supports screen readers with appropriate ARIA roles and labels.",
+        "The comment box will initially show only 5 lines. Clicking on it will expand the box to display the full content.",
+"Fixed positions will not expand; instead, a scrollbar will appear if there are more than 5 lines.",
+"The comment box will support emojis.",
+"The comment box should be editable inline."
+    ],
+    "spacingTitle": "Spacing & Alignments",
+    "spacingVariants": [
+      {
+        "title": "",
+        "imageSrc": "/img/compng/cm1.png"
+      }
+     
+    ]
+  }
+  

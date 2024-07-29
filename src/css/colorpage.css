@@ -1,0 +1,1133 @@
+
+p{margin: 0;}
+h4{margin: 0px;}
+.rowGap-5{padding-bottom: 10px;}
+
+/* colors */
+.primaryOrange{background-color: #ff7b1d;}
+.primaryGreen{background-color: #17a954;}
+.redOrange{background-color: #fe5000;}
+.yellowOrange{background-color: #ffaa00;}
+.BeachBrown{background-color: #f4eec7;}
+.PeachFuzz{background-color: #FFBE98;}
+.LemonGreen{background-color: #ccda46;}
+.PearGreen{background-color: #76bc21;}
+.leaveGreen{background-color: #006837;}
+.blackGray{background-color: #011627;}
+.midnightGray{background-color: #38455d;}
+.steelGray{background-color: #64728c;}
+.spaceGray{background-color: #929baa;}
+.pastelGray{background-color: #cfd3de;}
+.moonLight{background-color: #e8eaef;}
+.lightGray{background-color: #f1f2f5;}
+.pastelWhite{background-color: #f6f5fb;}
+.whiteShadow{background-color: #fafafc;}
+.f-Blue{background-color: #1e6ceb;}
+.f-Red{background-color: #eb0910;}
+.f-Yellow{background-color: #ffa62f;}
+.f-Green{background-color: #34bc40;}
+.a-BurntOrange{background-color: #ca4d00;}
+.a-primaryOrange{background-color: #d65b04;}
+.a-primaryGreen{background-color: #114022;}
+.a-yellowOrange{background-color: #cb8e16;}
+.a-BeachBrown{background-color: #706d5c;}
+.a-PearGreen{background-color: #46643b;}
+.a-black{background-color: #000;}
+.gradient-orange{background: hsla(19, 100%, 50%, 1);
+    background: linear-gradient(90deg, hsla(19, 100%, 50%, 1) 0%, hsla(25, 100%, 83%, 1) 100%); 
+    background: -moz-linear-gradient(90deg, hsla(19, 100%, 50%, 1) 0%, hsla(25, 100%, 83%, 1) 100%);    
+    background: -webkit-linear-gradient(90deg, hsla(19, 100%, 50%, 1) 0%, hsla(25, 100%, 83%, 1) 100%); 
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#FF5100", endColorstr="#FFCBA6", GradientType=1 );
+}
+.gradient-green{background: hsla(100, 99%, 47%, 1);
+    background: linear-gradient(90deg, hsla(100, 99%, 47%, 1) 0%, hsla(80, 100%, 78%, 1) 100%); 
+    background: -moz-linear-gradient(90deg, hsla(100, 99%, 47%, 1) 0%, hsla(80, 100%, 78%, 1) 100%); 
+    background: -webkit-linear-gradient(90deg, hsla(100, 99%, 47%, 1) 0%, hsla(80, 100%, 78%, 1) 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#50EE01", endColorstr="#DAFF8F", GradientType=1 );
+}
+.gradient-yellow{
+    background: hsla(40, 100%, 50%, 1);
+    background: linear-gradient(90deg, hsla(40, 100%, 50%, 1) 0%, hsla(38, 100%, 85%, 1) 100%);
+    background: -moz-linear-gradient(90deg, hsla(40, 100%, 50%, 1) 0%, hsla(38, 100%, 85%, 1) 100%);
+    background: -webkit-linear-gradient(90deg, hsla(40, 100%, 50%, 1) 0%, hsla(38, 100%, 85%, 1) 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#FFAA00", endColorstr="#FFE4B5", GradientType=1 );
+}
+.gradient-darkgreen{
+    background: hsla(152, 100%, 20%, 1);
+    background: linear-gradient(90deg, hsla(152, 100%, 20%, 1) 0%, hsla(152, 100%, 55%, 1) 100%);
+    background: -moz-linear-gradient(90deg, hsla(152, 100%, 20%, 1) 0%, hsla(152, 100%, 55%, 1) 100%);
+    background: -webkit-linear-gradient(90deg, hsla(152, 100%, 20%, 1) 0%, hsla(152, 100%, 55%, 1) 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#006837", endColorstr="#19FF94", GradientType=1 );
+}
+.gradient-OrnageYellow{
+    background: hsla(19, 100%, 50%, 1);
+background: linear-gradient(90deg, hsla(19, 100%, 50%, 1) 0%, hsla(40, 100%, 50%, 1) 100%);
+background: -moz-linear-gradient(90deg, hsla(19, 100%, 50%, 1) 0%, hsla(40, 100%, 50%, 1) 100%);
+background: -webkit-linear-gradient(90deg, hsla(19, 100%, 50%, 1) 0%, hsla(40, 100%, 50%, 1) 100%);
+filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#FE5000", endColorstr="#FFAA00", GradientType=1 );
+}
+.gradient-blue{
+    background: hsla(212, 100%, 50%, 1);
+    background: linear-gradient(90deg, hsla(212, 100%, 50%, 1) 0%, hsla(195, 100%, 77%, 1) 100%);
+    background: -moz-linear-gradient(90deg, hsla(212, 100%, 50%, 1) 0%, hsla(195, 100%, 77%, 1) 100%);
+    background: -webkit-linear-gradient(90deg, hsla(212, 100%, 50%, 1) 0%, hsla(195, 100%, 77%, 1) 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#0077FF", endColorstr="#89E1FF", GradientType=1 );
+}
+
+.colorPageWarp
+{
+    padding-top: 110px;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 200px;
+    font-family: 'helvetica', sans-serif; 
+}
+
+.colorPageWarp .pageTitle
+{
+  margin-top: -85px;
+  position: absolute;
+}
+.bannerLeft
+{
+    border-right: 1px solid rgba(255, 255, 255, 0.5);
+    padding-right: 25px;
+    display: flex;
+    align-content: center;
+    flex-wrap: wrap;
+    height: 300px;
+}
+.bannerRight
+{
+    padding-left: 25px;
+}
+.colorBanner
+{
+    background-color: #011627;
+    width: 100%;
+    height: 400px;
+    border-radius: 50px;
+    padding: 60px;
+    color: rgba(255, 255, 255, 0.6);
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: nowrap;
+    box-shadow:  20px 20px 60px #d0d0d0,
+             -20px -20px 60px #ffffff;
+
+}
+.colorBanner h1
+{
+   font-size: 80px;
+   color: white;
+   margin: 0px;
+   line-height: 1;
+}
+.colorbannerimg
+{
+    width: 300px;
+    padding-left: 25px;
+}
+
+.colorSwitchrow
+{
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: flex-start;
+    column-gap: 30px;
+    margin-top: 20px;
+}
+.titlesub
+{
+    font-size: 16px;
+    color: #64728c;
+    font-weight: 500;
+    padding-left: 8px;
+}
+.colorSwitch
+{
+    width: 210px;
+    height: 210px;
+    border-radius: 15px;
+    padding: 20px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    column-gap: 30px;
+    color: white;
+    cursor: pointer;
+}
+.gradientSwitch
+{
+    background-color: beige;
+    width: 200px;
+    height: 400px;
+    border-radius: 200px;
+    display: flex;
+    padding: 20px;
+    padding-top: 200px;
+    align-content: center;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+
+}
+.lableRow
+{
+    width: 100%;
+    height: 150px;
+    display: flex;
+    align-items: flex-end;
+    align-content: flex-end;
+    justify-content: flex-start;
+    font-size: 25px;
+    margin-bottom: 35px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.lableRow p
+{
+    font-size: 16px;
+    color: #64728c;
+}
+.colorCode
+{
+    font-size: 16px;
+    font-weight: 900;
+  
+}
+.gradientSwitch .colorName {
+    margin-top: 10px;
+    font-size: 0.9em;
+  }
+.palettebannerimg
+{
+    width: 400px;
+    position: absolute;
+    top: 150px;
+    right: 140px;
+}
+.txtColorBlack{color: #011627;}
+.txtColorGray{color: #42464c;}
+.txtColorWhite{color: #fff;}
+
+:root {
+    --red-orange: #fe5000;
+  --yellow-orange: #ffaa00;
+  --beach-brown: #f4eec7;
+  --lemon-green: #ccda46;
+  --pear-green: #76bc21;
+  --leave-green: #006837;
+
+  --red-orange-light: #ffd9cc; /* Lightened by 60% */
+  --yellow-orange-light: #ffedcc; /* Lightened by 60% */
+  --beach-brown-light: #fffdf6; /* Lightened by 60% */
+  --lemon-green-light: #f7f9d9; /* Lightened by 60% */
+  --pear-green-light: #e0f7cc; /* Lightened by 60% */
+  --leave-green-light: #80d5b3; /* Lightened by 60% */
+
+  --red-orange-dark: #cb3f00; /* Darkened by 20% */
+  --yellow-orange-dark: #cc8800; /* Darkened by 20% */
+  --beach-brown-dark: #c8c0a0; /* Darkened by 20% */
+  --lemon-green-dark: #a8b938; /* Darkened by 20% */
+  --pear-green-dark: #5d901a; /* Darkened by 20% */
+  --leave-green-dark: #005028; /* Darkened by 20% */
+  }
+  
+  .colorSwitch.light.redOrange {
+    color: var(--red-orange-light);
+  }
+  
+ 
+  .colorSwitch.light.redOrange .colorName,
+  .colorSwitch.light.redOrange .colorCode {
+    color: var(--red-orange-dark);
+  }
+  
+  .colorSwitch.light.yellowOrange {
+    color: var(--yellow-orange-light);
+  }
+  
+
+  .colorSwitch.light.yellowOrange .colorName,
+  .colorSwitch.light.yellowOrange .colorCode {
+    color: var(--yellow-orange-dark);
+  }
+  
+  .colorSwitch.light.BeachBrown {
+    background-color: var(--beach-brown-light);
+    color: black;
+  }
+  
+
+  .colorSwitch.light.BeachBrown .colorName,
+  .colorSwitch.light.BeachBrown .colorCode {
+    color: var(--beach-brown-dark);
+  }
+  
+  .colorSwitch.light.LemonGreen {
+    color: var(--lemon-green-light);
+    color: black;
+  }
+  
+
+  .colorSwitch.light.LemonGreen .colorName,
+  .colorSwitch.light.LemonGreen .colorCode {
+    color: var(--lemon-green-dark);
+  }
+  
+  .colorSwitch.light.PearGreen {
+    background-color: var(--pear-green-light);
+    color: black;
+  }
+  
+
+  .colorSwitch.light.PearGreen .colorName,
+  .colorSwitch.light.PearGreen .colorCode {
+    color: var(--pear-green-dark);
+  }
+  
+  .colorSwitch.light.leaveGreen {
+    color: var(--leave-green-light);
+  }
+  
+
+  .colorSwitch.light.leaveGreen .colorName,
+  .colorSwitch.light.leaveGreen .colorCode {
+   color: var(--leave-green-dark);
+  }
+  
+  
+  .redOrange {
+    background-color: var(--red-orange);
+  }
+  
+  .yellowOrange {
+    background-color: var(--yellow-orange);
+  }
+  
+  .BeachBrown {
+    background-color: var(--beach-brown);
+    color: black;
+  }
+  
+  .LemonGreen {
+    background-color: var(--lemon-green);
+    color: black;
+  }
+  
+  .PearGreen {
+    background-color: var(--pear-green);
+    color: black;
+  }
+  
+  .leaveGreen {
+    background-color: var(--leave-green);
+  }
+  
+  .light.redOrange {
+    background-color: var(--red-orange-light);
+  }
+  
+  .dark.redOrange {
+    background-color: var(--red-orange-dark);
+  }
+  
+  .light.yellowOrange {
+    background-color: var(--yellow-orange-light);
+  }
+  
+  .dark.yellowOrange {
+    background-color: var(--yellow-orange-dark);
+  }
+  
+  .light.BeachBrown {
+    background-color: var(--beach-brown-light);
+    color: black;
+  }
+  
+  .dark.BeachBrown {
+    background-color: var(--beach-brown-dark);
+    color: black;
+  }
+  
+  .light.LemonGreen {
+    background-color: var(--lemon-green-light);
+    color: black;
+  }
+  
+  .dark.LemonGreen {
+    background-color: var(--lemon-green-dark);
+    color: black;
+  }
+  
+  .light.PearGreen {
+    background-color: var(--pear-green-light);
+    color: black;
+  }
+  
+  .dark.PearGreen {
+    background-color: var(--pear-green-dark);
+    color: black;
+  }
+  
+  .light.leaveGreen {
+    background-color: var(--leave-green-light);
+  }
+  
+  .dark.leaveGreen {
+    background-color: var(--leave-green-dark);
+  }
+  
+  .primaryOrange {
+    background-color: #ff7b1d;
+  }
+  
+  .primaryGreen {
+    background-color: #17a954;
+  }
+  
+  .blackGray {
+    background-color: #011627;
+  }
+  
+  .midnightGray {
+    background-color: #38455d;
+  }
+  
+  .steelGray {
+    background-color: #64728c;
+  }
+  
+  .spaceGray {
+    background-color: #929baa;
+  }
+  
+  .pastelGray {
+    background-color: #cfd3de;
+    color: gray;
+  }
+  
+  .moonLight {
+    background-color: #e8eaef;
+    color: gray;
+  }
+  
+  .lightGray {
+    background-color: #f1f2f5;
+    color: gray;
+  }
+  
+  .pastelWhite {
+    background-color: #f6f5fb;
+    color: gray;
+  }
+  
+  .whiteShadow {
+    background-color: #fafafc;
+    color: gray;
+  }
+  
+  .f-Blue {
+    background-color: #1e6ceb;
+  }
+  
+  .f-Red {
+    background-color: #eb0910;
+  }
+  
+  .f-Yellow {
+    background-color: #ffa62f;
+  }
+  
+  .f-Green {
+    background-color: #34bc40;
+  }
+  
+  .gradient-OrnageYellow {
+    background: linear-gradient(45deg, #ff7b1d, #ffd380); /* #ffaa00 lightened by 40% */
+  }
+  
+  .gradient-orange {
+    background: linear-gradient(45deg, #fe5000, #ffb399); /* #ff7040 lightened by 40% */
+  }
+  
+  .gradient-yellow {
+    background: linear-gradient(45deg, #ccda46, #f0f2a3); /* #dde36b lightened by 40% */
+  }
+  
+  .gradient-green {
+    background: linear-gradient(45deg, #76bc21, #bbf299); /* #92d552 lightened by 40% */
+  }
+  
+  .gradient-darkgreen {
+    background: linear-gradient(45deg, #006837, #80d5b3); /* #338055 lightened by 40% */
+  }
+  
+  .a-primaryOrange {
+    background-color: #d65b04;
+  }
+  :root {
+    --grey-1: #f8f9fa;
+    --grey-2: #e9ecef;
+    --grey-3: #dee2e6;
+    --grey-4: #ced4da;
+    --grey-5: #adb5bd;
+    --grey-6: #6c757d;
+    --grey-7: #495057;
+    --grey-8: #343a40;
+    --grey-9: #212529;
+    --grey-10: #121212;
+    --grey-11: #000000;
+
+    --red-1: #FFEAF4;
+    --red-2: #FFD5EA;
+    --red-3: #FFB2D2;
+    --red-4: #FF8CB2;
+    --red-5: #FF5C77;
+    --red-6: #EE3939;  /* Base Color */
+    --red-7: #D20A0A;
+    --red-8: #AA0808;
+    --red-9: #840606;
+    --red-10: #5A0404;
+    --red-11: #350000;
+  
+    --mango-1: #fff8d6;
+  --mango-2: #fff3b8;
+  --mango-3: #ffdf72;
+  --mango-4: #ffc933;
+  --mango-5: #ffb300;
+  --mango-6: #e76500;
+  --mango-7: #c35500;
+  --mango-8: #a93e00;
+  --mango-9: #8d2a00;
+  --mango-10: #6d1900;
+  --mango-11: #450800;
+
+  --orange-1: #FFDED9;
+  --orange-2: #FFC8B8;
+  --orange-3: #FFAD99;
+  --orange-4: #FF9277;
+  --orange-5: #FF784E;
+  --orange-6: #FF4800;  /* Base Color */
+  --orange-7: #CC3B00;
+  --orange-8: #993000;
+  --orange-9: #662200;
+  --orange-10: #331100;
+  --orange-11: #190800;
+  
+  --green-1: #F5FAE5;
+  --green-2: #EBF5CB;
+  --green-3: #BDE986;
+  --green-4: #97DD40;
+  --green-5: #5DC122;
+  --green-6: #36A41D;  /* Base Color */
+  --green-7: #188918;
+  --green-8: #256F3A;
+  --green-9: #1E592F;
+  --green-10: #164323;
+  --green-11: #0E2B16;
+
+    --lime-1: #eaffea;
+    --lime-2: #ccffcc;
+    --lime-3: #99ff99;
+    --lime-4: #66ff66;
+    --lime-5: #33ff33;
+    --lime-6: #00ff00;
+    --lime-7: #00cc00;
+    --lime-8: #009900;
+    --lime-9: #006600;
+    --lime-10: #003300;
+    --lime-11: #000000;
+  
+    --teal-1: #dafdf5;
+    --teal-2: #c2fcee;
+    --teal-3: #64edd2;
+    --teal-4: #2ce0bf;
+    --teal-5: #00ceac;
+    --teal-6: #049f9a;
+    --teal-7: #07838f;
+    --teal-8: #046c7a;
+    --teal-9: #035663;
+    --teal-10: #02414c;
+    --teal-11: #012931;
+  
+    --blue-1: #e0f7fa;
+    --blue-2: #b3e5fc;
+    --blue-3: #81d4fa;
+    --blue-4: #4fc3f7;
+    --blue-5: #29b6f6;
+    --blue-6: #03a9f4;
+    --blue-7: #0288d1;
+    --blue-8: #0277bd;
+    --blue-9: #01579b;
+    --blue-10: #004d8c;
+    --blue-11: #003c8b;
+  
+  --indigo-1: #F1ECFF;
+  --indigo-2: #E2D8FF;
+  --indigo-3: #D3B6FF;
+  --indigo-4: #B894FF;
+  --indigo-5: #9B76FF;
+  --indigo-6: #7858FF;  /* Base Color */
+  --indigo-7: #5D36FF;
+  --indigo-8: #470CED;
+  --indigo-9: #2C13AD;
+  --indigo-10: #1C0C6E;
+  --indigo-11: #0E0637;
+  
+  --pink-1: #FFF0FA;
+  --pink-2: #FFDCF3;
+  --pink-3: #FFAFED;
+  --pink-4: #FF8AF0;
+  --pink-5: #F65AF2;
+  --pink-6: #F31DED;  /* Base Color */
+  --pink-7: #CC00DC;
+  --pink-8: #A100C2;
+  --pink-9: #7800A4;
+  --pink-10: #510080;
+  --pink-11: #28004A;
+  
+    --raspberry-1: #fde0dc;
+    --raspberry-2: #f9bdbb;
+    --raspberry-3: #f69988;
+    --raspberry-4: #f36c60;
+    --raspberry-5: #e84e40;
+    --raspberry-6: #e51c23;
+    --raspberry-7: #dd191d;
+    --raspberry-8: #d01716;
+    --raspberry-9: #c41411;
+    --raspberry-10: #b0120a;
+    --raspberry-11: #880d04;
+  
+    --white: #ffffff;
+    --black: #000000;
+  }
+  
+  
+  .a-primaryGreen {
+    background-color: #114022;
+  }
+  
+  .a-BurntOrange {
+    background-color: #ca4d00;
+  }
+  
+  .a-yellowOrange {
+    background-color: #cb8e16;
+  }
+  
+  .a-BeachBrown {
+    background-color: #706d5c;
+  }
+  
+  .a-PearGreen {
+    background-color: #46643b;
+  }
+  
+  .a-black {
+    background-color: #000000;
+  }
+  
+  .rowGap-5 {
+    margin-top: 5px;
+  }
+  .colorSwitch.grey {
+    background-color: var(--grey-1);
+  }
+  .colorSwitch.grey:nth-child(2) {
+    background-color: var(--grey-2);
+  }
+  .colorSwitch.grey:nth-child(3) {
+    background-color: var(--grey-3);
+  }
+  .colorSwitch.grey:nth-child(4) {
+    background-color: var(--grey-4);
+  }
+  .colorSwitch.grey:nth-child(5) {
+    background-color: var(--grey-5);
+  }
+  .colorSwitch.grey:nth-child(6) {
+    background-color: var(--grey-6);
+  }
+  .colorSwitch.grey:nth-child(7) {
+    background-color: var(--grey-7);
+  }
+  .colorSwitch.grey:nth-child(8) {
+    background-color: var(--grey-8);
+  }
+  .colorSwitch.grey:nth-child(9) {
+    background-color: var(--grey-9);
+  }
+  .colorSwitch.grey:nth-child(10) {
+    background-color: var(--grey-10);
+  }
+ 
+  
+  .colorSwitch.red {
+    background-color: var(--red-1);
+    color: var(--red-9);
+  }
+  .colorSwitch.red:nth-child(2) {
+    background-color: var(--red-2);
+    color: var(--red-9);
+  }
+  .colorSwitch.red:nth-child(3) {
+    background-color: var(--red-3);
+    color: var(--red-9);
+  }
+  .colorSwitch.red:nth-child(4) {
+    background-color: var(--red-4);
+    color: var(--red-9);
+  }
+  .colorSwitch.red:nth-child(5) {
+    background-color: var(--red-5);
+    color: var(--red-1);
+  }
+  .colorSwitch.red:nth-child(6) {
+    background-color: var(--red-6);
+    color: var(--red-1);
+  }
+  .colorSwitch.red:nth-child(7) {
+    background-color: var(--red-7);
+    color: var(--red-1);
+  }
+  .colorSwitch.red:nth-child(8) {
+    background-color: var(--red-8);
+    color: var(--red-1);
+  }
+  .colorSwitch.red:nth-child(9) {
+    background-color: var(--red-9);
+    color: var(--red-1);
+  }
+  .colorSwitch.red:nth-child(10) {
+    background-color: var(--red-10);
+    color: var(--red-1);
+  }
+ 
+  .colorSwitch.mango {
+    background-color: var(--mango-1);
+    color: var(--mango-8);
+  }
+  .colorSwitch.mango:nth-child(2) {
+    background-color: var(--mango-2);
+    color: var(--mango-8);
+  }
+  .colorSwitch.mango:nth-child(3) {
+    background-color: var(--mango-3);
+    color: var(--mango-9);
+  }
+  .colorSwitch.mango:nth-child(4) {
+    background-color: var(--mango-4);
+    color: var(--mango-9);
+  }
+  .colorSwitch.mango:nth-child(5) {
+    background-color: var(--mango-5);
+    color: var(--mango-9);
+  }
+  .colorSwitch.mango:nth-child(6) {
+    background-color: var(--mango-6);
+    color: var(--mango-9);
+  }
+  .colorSwitch.mango:nth-child(7) {
+    background-color: var(--mango-7);
+    color: var(--mango-1);
+  }
+  .colorSwitch.mango:nth-child(8) {
+    background-color: var(--mango-8);
+    color: var(--mango-1);
+  }
+  .colorSwitch.mango:nth-child(9) {
+    background-color: var(--mango-9);
+    color: var(--mango-1);
+  }
+  .colorSwitch.mango:nth-child(10) {
+    background-color: var(--mango-10);
+    color: var(--mango-1);
+  }
+ 
+  .colorSwitch.orange {
+    background-color: var(--orange-1);
+    color: var(--orange-10);
+  }
+  .colorSwitch.orange:nth-child(2) {
+    background-color: var(--orange-2);
+    color: var(--orange-10);
+  }
+  .colorSwitch.orange:nth-child(3) {
+    background-color: var(--orange-3);
+    color: var(--orange-10);
+  }
+  .colorSwitch.orange:nth-child(4) {
+    background-color: var(--orange-4);
+    color: var(--orange-10);
+  }
+  .colorSwitch.orange:nth-child(5) {
+    background-color: var(--orange-5);
+    color: var(--orange-10);
+  }
+  .colorSwitch.orange:nth-child(6) {
+    background-color: var(--orange-6);
+    color: var(--orange-1);
+  }
+  .colorSwitch.orange:nth-child(7) {
+    background-color: var(--orange-7);
+    color: var(--orange-1);
+  }
+  .colorSwitch.orange:nth-child(8) {
+    background-color: var(--orange-8);
+    color: var(--orange-1);
+  }
+  .colorSwitch.orange:nth-child(9) {
+    background-color: var(--orange-9);
+    color: var(--orange-1);
+  }
+  .colorSwitch.orange:nth-child(10) {
+    background-color: var(--orange-10);
+    color: var(--orange-1);
+  }
+  .colorSwitch.orange:nth-child(11) {
+    background-color: var(--orange-11);
+    color: var(--orange-1);
+  }
+  
+  .colorSwitch.green {
+    background-color: var(--green-1);
+    color: var(--green-11);
+  }
+  .colorSwitch.green:nth-child(2) {
+    background-color: var(--green-2);
+    color: var(--green-11);
+  }
+  .colorSwitch.green:nth-child(3) {
+    background-color: var(--green-3);
+    color: var(--green-11);
+  }
+  .colorSwitch.green:nth-child(4) {
+    background-color: var(--green-4);
+    color: var(--green-11);
+  }
+  .colorSwitch.green:nth-child(5) {
+    background-color: var(--green-5);
+    color: var(--green-11);
+  }
+  .colorSwitch.green:nth-child(6) {
+    background-color: var(--green-6);
+    color: var(--green-1);
+  }
+  .colorSwitch.green:nth-child(7) {
+    background-color: var(--green-7);
+    color: var(--green-1);
+  }
+  .colorSwitch.green:nth-child(8) {
+    background-color: var(--green-8);
+    color: var(--green-1);
+  }
+  .colorSwitch.green:nth-child(9) {
+    background-color: var(--green-9);
+    color: var(--green-1);
+  }
+  .colorSwitch.green:nth-child(10) {
+    background-color: var(--green-10);
+    color: var(--green-1);
+  }
+  .colorSwitch.green:nth-child(11) {
+    background-color: var(--green-11);
+    color: var(--green-1);
+  }
+  
+
+  .colorSwitch.lime {
+    background-color: var(--lime-1);
+    color: var(--lime-10);
+  }
+  .colorSwitch.lime:nth-child(2) {
+    background-color: var(--lime-2);
+    color: var(--lime-10);
+  }
+  .colorSwitch.lime:nth-child(3) {
+    background-color: var(--lime-3);
+    color: var(--lime-10);
+  }
+  .colorSwitch.lime:nth-child(4) {
+    background-color: var(--lime-4);
+    color: var(--lime-10);
+  }
+  .colorSwitch.lime:nth-child(5) {
+    background-color: var(--lime-5);
+    color: var(--limen-10);
+  }
+  .colorSwitch.lime:nth-child(6) {
+    background-color: var(--lime-6);
+    color: var(--lime-10);
+  }
+  .colorSwitch.lime:nth-child(7) {
+    background-color: var(--lime-7);
+    color: var(--lime-1);
+  }
+  .colorSwitch.lime:nth-child(8) {
+    background-color: var(--lime-8);
+    color: var(--lime-1);
+  }
+  .colorSwitch.lime:nth-child(9) {
+    background-color: var(--lime-9);
+    color: var(--lime-1);
+  }
+  .colorSwitch.lime:nth-child(10) {
+    background-color: var(--lime-10);
+    color: var(--lime-1);
+  }
+ 
+  
+  .colorSwitch.teal {
+    background-color: var(--teal-1);
+    color: var(--teal-10);
+  }
+  .colorSwitch.teal:nth-child(2) {
+    background-color: var(--teal-2);
+    color: var(--teal-10);
+  }
+  .colorSwitch.teal:nth-child(3) {
+    background-color: var(--teal-3);
+    color: var(--teal-10);
+  }
+  .colorSwitch.teal:nth-child(4) {
+    background-color: var(--teal-4);
+    color: var(--teal-10);
+  }
+  .colorSwitch.teal:nth-child(5) {
+    background-color: var(--teal-5);
+    color: var(--teal-10);
+  }
+  .colorSwitch.teal:nth-child(6) {
+    background-color: var(--teal-6);
+    color: var(--teal-1);
+  }
+  .colorSwitch.teal:nth-child(7) {
+    background-color: var(--teal-7);
+    color: var(--teal-1);
+  }
+  .colorSwitch.teal:nth-child(8) {
+    background-color: var(--teal-8);
+    color: var(--teal-1);
+  }
+  .colorSwitch.teal:nth-child(9) {
+    background-color: var(--teal-9);
+    color: var(--teal-1);
+  }
+  .colorSwitch.teal:nth-child(10) {
+    background-color: var(--teal-10);
+    color: var(--teal-1);
+  }
+  
+  
+  .colorSwitch.blue:nth-child(1) {
+    background-color: var(--blue-1);
+    color: #004d8c;
+  }
+  .colorSwitch.blue:nth-child(2) {
+    background-color: var(--blue-2);
+    color: #004d8c;
+  }
+  .colorSwitch.blue:nth-child(3) {
+    background-color: var(--blue-3);
+    color: #004d8c;
+  }
+  .colorSwitch.blue:nth-child(4) {
+    background-color: var(--blue-4);
+    color: #004d8c;
+  }
+  .colorSwitch.blue:nth-child(5) {
+    background-color: var(--blue-5);
+    color: #004d8c;
+  }
+  .colorSwitch.blue:nth-child(6) {
+    background-color: var(--blue-6);
+  }
+  .colorSwitch.blue:nth-child(7) {
+    background-color: var(--blue-7);
+  }
+  .colorSwitch.blue:nth-child(8) {
+    background-color: var(--blue-8);
+  }
+  .colorSwitch.blue:nth-child(9) {
+    background-color: var(--blue-9);
+  }
+  .colorSwitch.blue:nth-child(10) {
+    background-color: var(--blue-10);
+  }
+  
+  
+  .colorSwitch.indigo {
+    background-color: var(--indigo-1);
+    color: var(--indigo-10);
+  }
+  .colorSwitch.indigo:nth-child(2) {
+    background-color: var(--indigo-2);
+    color: var(--indigo-10);
+  }
+  .colorSwitch.indigo:nth-child(3) {
+    background-color: var(--indigo-3);
+    color: var(--indigo-10);
+  }
+  .colorSwitch.indigo:nth-child(4) {
+    background-color: var(--indigo-4);
+    color: var(--indigo-10);
+  }
+  .colorSwitch.indigo:nth-child(5) {
+    background-color: var(--indigo-5);
+    color: var(--indigo-1);
+  }
+  .colorSwitch.indigo:nth-child(6) {
+    background-color: var(--indigo-6);
+    color: var(--indigo-1);
+  }
+  .colorSwitch.indigo:nth-child(7) {
+    background-color: var(--indigo-7);
+    color: var(--indigo-1);
+  }
+  .colorSwitch.indigo:nth-child(8) {
+    background-color: var(--indigo-8);
+    color: var(--indigo-1);
+  }
+  .colorSwitch.indigo:nth-child(9) {
+    background-color: var(--indigo-9);
+    color: var(--indigo-1);
+  }
+  .colorSwitch.indigo:nth-child(10) {
+    background-color: var(--indigo-10);
+    color: var(--indigo-1);
+  }
+
+  
+  .colorSwitch.pink {
+    background-color: var(--pink-1);
+    color: var(--pink-10);
+  }
+  .colorSwitch.pink:nth-child(2) {
+    background-color: var(--pink-2);
+    color: var(--pink-10);
+  }
+  .colorSwitch.pink:nth-child(3) {
+    background-color: var(--pink-3);
+    color: var(--pink-10);
+  }
+  .colorSwitch.pink:nth-child(4) {
+    background-color: var(--pink-4);
+    color: var(--pink-10);
+  }
+  .colorSwitch.pink:nth-child(5) {
+    background-color: var(--pink-5);
+    color: var(--pink-1);
+  }
+  .colorSwitch.pink:nth-child(6) {
+    background-color: var(--pink-6);
+    color: var(--pink-1);
+  }
+  .colorSwitch.pink:nth-child(7) {
+    background-color: var(--pink-7);
+    color: var(--pink-1);
+  }
+  .colorSwitch.pink:nth-child(8) {
+    background-color: var(--pink-8);
+    color: var(--pink-1);
+  }
+  .colorSwitch.pink:nth-child(9) {
+    background-color: var(--pink-9);
+    color: var(--pink-1);
+  }
+  .colorSwitch.pink:nth-child(10) {
+    background-color: var(--pink-10);
+    color: var(--pink-1);
+  }
+  
+  
+  .colorSwitch.raspberry {
+    background-color: var(--raspberry-1);
+    color: var(--raspberry-10);
+  }
+  .colorSwitch.raspberry:nth-child(2) {
+    background-color: var(--raspberry-2);
+    color: var(--raspberry-10);
+  }
+  .colorSwitch.raspberry:nth-child(3) {
+    background-color: var(--raspberry-3);
+    color: var(--raspberry-10);
+  }
+  .colorSwitch.raspberry:nth-child(4) {
+    background-color: var(--raspberry-4);
+    color: var(--raspberry-1);
+  }
+  .colorSwitch.raspberry:nth-child(5) {
+    background-color: var(--raspberry-5);
+    color: var(--raspberry-1);
+  }
+  .colorSwitch.raspberry:nth-child(6) {
+    background-color: var(--raspberry-6);
+    color: var(--raspberry-1);
+  }
+  .colorSwitch.raspberry:nth-child(7) {
+    background-color: var(--raspberry-7);
+    color: var(--raspberry-1);
+  }
+  .colorSwitch.raspberry:nth-child(8) {
+    background-color: var(--raspberry-8);
+    color: var(--raspberry-1);
+  }
+  .colorSwitch.raspberry:nth-child(9) {
+    background-color: var(--raspberry-9);
+    color: var(--raspberry-1);
+  }
+  .colorSwitch.raspberry:nth-child(10) {
+    background-color: var(--raspberry-10);
+    color: var(--raspberry-1);
+  }
+
+  
+  .colorSwitch.black {
+    background-color: var(--black);
+  }
+  
+  .colorSwitch.white {
+    background-color: var(--white);
+  }
+
+  .chatSwitchwrap .colorSwitch
+  {
+    width: 120px;
+    height: 120px;
+    padding: 10px;
+    font-size: 12px;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: space-between;
+  }
+
+  .chatSwitchwrap .colorSwitchrow
+  {
+    column-gap: 10px;
+    margin-top: 10px;
+  }
+
+  .chatSwitchwrap .colorSwitchrow
+{
+    width: 700px;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    row-gap: 10px;
+}
+.chatSwitchwrap
+{
+    display: flex;
+}

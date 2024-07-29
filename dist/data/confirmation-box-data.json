@@ -1,0 +1,55 @@
+{
+    "title": "Alerts",
+    "componentName": "OxdAlerts",
+    "variantsTitle": "Variants",
+    "variants": [
+        {
+          "title": "Default",
+          "imageSrc": "/img/comsvg/cf01.svg"
+        },
+        {
+          "title": "Only Ok button",
+          "imageSrc": "/img/comsvg/cf02.svg"
+        },
+        {
+          "title": "Warning Message",
+          "imageSrc": "/img/comsvg/cf03.svg"
+        },
+        {
+          "title": "Error Message",
+          "imageSrc": "/img/comsvg/cf04.svg"
+        },
+        {
+          "title": "Without Icon",
+          "imageSrc": "/img/comsvg/cf05.svg"
+        }
+      ],
+    "stylesTitle": "Styles",
+    "cssCodePath": "/styles/testcss.css",
+    "buttonSizesTitle": "Button Sizes",
+   
+    "themeSupportTitle": "Theme Support",
+    "themeSupportText": "No",
+    "themeSupportImageSrc": "/img/oxd-error.svg",
+    "themeVariants": [
+   
+    ],
+ 
+    "behaviorsTitle": "Behaviours and Rules",
+    "behaviorsList": [
+        "The confirmation modal will appear only if it is essential to get confirmation from the user, ensuring that users understand the consequences of their actions and to prevent accidental or unintended operations.",
+        "Do not overuse; it is not necessary for every action, only for primary actions that include limited information on the surface of the UI.",
+        "The modal will not close without clicking any option; only the close button can be used to exit the modal, and the action will not proceed.",
+        "Custom icons and titles can be used depending on the project.",
+        "Ensure that the user's intent is clear with a concise message and use a maximum of 3 lines."
+    ],
+    "spacingTitle": "Spacing & Alignments",
+    "spacingVariants": [
+      {
+        "title": "",
+        "imageSrc": "/img/compng/cf1.png"
+      }
+     
+    ]
+  }
+  

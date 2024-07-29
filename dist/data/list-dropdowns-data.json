@@ -1,0 +1,62 @@
+{
+    "title": "List Dropdown",
+    "componentName": "ListDropdown",
+    "variantsTitle": "Variants",
+    "variants": [
+        {
+          "title": "Default",
+          "imageSrc": "/img/comsvg/ld01.svg"
+        },
+        {
+          "title": "with Sort message",
+          "imageSrc": "/img/comsvg/ld02.svg"
+        },
+        {
+          "title": "With Action Button or Links",
+          "imageSrc": "/img/comsvg/ld03.svg"
+        },
+        {
+            "title": "With Action Button or Links",
+            "imageSrc": "/img/comsvg/ld04.svg"
+        },
+        {
+            "title": "With Action Button or Links",
+            "imageSrc": "/img/comsvg/ld05.svg"
+        }
+      ],
+    "stylesTitle": "Styles",
+    "cssCodePath": "/styles/testcss.css",
+
+   
+    "themeSupportTitle": "Theme Support",
+    "themeSupportText": "Yes",
+    "themeSupportImageSrc": "/img/oxd-correct.svg",
+    "themeVariants": [
+        {
+            "title": "exsample 01",
+            "imageSrc": "/img/comsvg/ld06.svg"
+        },
+        {
+            "title": "exsample 02",
+            "imageSrc": "/img/comsvg/ld07.svg"
+        }
+    ],
+ 
+    "behaviorsTitle": "Behaviours and Rules",
+    "behaviorsList": [
+        "List dropdowns provide a quick way to check status on list views or serve as an alternative dropdown for list views.",
+        "For tables, columns will highlight selected options with a foreground color (curved border for list views only). The table will maintain the same shape, with only the fill and text color changing.",
+        "The maximum number of items is 6.",
+        "Options can be edited inline, and changes will be automatically applied to all list dropdowns in the same table or list.",
+        "New options can be added if enabled, and newly added options will be automatically included in every list dropdown in the same list."
+    ],
+    "spacingTitle": "Spacing & Alignments",
+    "spacingVariants": [
+      {
+        "title": "",
+        "imageSrc": "/img/compng/ldgap1.png"
+      }
+     
+    ]
+  }
+  

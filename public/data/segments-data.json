@@ -1,0 +1,46 @@
+{
+    "title": "Segments",
+    "componentName": "Segments",
+    "variantsTitle": "Variants",
+    "variants": [
+        {
+          "title": "Default",
+          "imageSrc": "/img/comsvg/sg01.svg"
+        },
+        {
+          "title": "With Icon",
+          "imageSrc": "/img/comsvg/sg02.svg"
+        }
+   
+       
+      ],
+    "stylesTitle": "Styles",
+    "cssCodePath": "/styles/testcss.css",
+    "buttonSizesTitle": "Button Sizes",
+   
+    "themeSupportTitle": "Theme Support",
+    "themeSupportText": "No",
+    "themeSupportImageSrc": "/img/oxd-error.svg",
+    "themeVariants": [
+   
+    ],
+ 
+    "behaviorsTitle": "Behaviours and Rules",
+    "behaviorsList": [
+        "Segments are a type of menu switch that adjusts part of the UI or data based on the selected value.",
+        "A maximum of 6 items can be used.",
+        "Only one segment should be used on a screen at a time.",
+        "Do not use long labels.",
+        "Cannot be used as an icon-only version.",
+        "The UI or data should react in real-time to the selected value."
+    ],
+    "spacingTitle": "Spacing & Alignments",
+    "spacingVariants": [
+      {
+        "title": "",
+        "imageSrc": "/img/compng/sggap1.png"
+      }
+     
+    ]
+  }
+  
